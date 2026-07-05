@@ -1,1 +1,143 @@
-:root{}
+/**
+ * Palette Atelier
+ * Design Tokens
+ * ------------------------------------------------------------
+ * Layer 1 : Primitive Tokens
+ * Layer 2 : Semantic Tokens (Next Commit)
+ * Layer 3 : Component Tokens (Future)
+ */
+
+:root {
+
+  /* ==========================================================
+     Primitive Colors
+     Neutral
+     ========================================================== */
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-gray-50:  #fcfcfb;
+  --color-gray-100: #f6f5f2;
+  --color-gray-200: #eceae5;
+  --color-gray-300: #ddd9d2;
+  --color-gray-400: #c4bfb7;
+  --color-gray-500: #9c978f;
+  --color-gray-600: #75706a;
+  --color-gray-700: #59554f;
+  --color-gray-800: #3d3a36;
+  --color-gray-900: #22201d;
+
+  /* ==========================================================
+     Primitive Colors
+     Primary (Warm Linen)
+     ========================================================== */
+
+  --color-primary-50:  #fffdf8;
+  --color-primary-100: #fdf8ee;
+  --color-primary-200: #f7eedc;
+  --color-primary-300: #f0e1c5;
+  --color-primary-400: #e6d0a8;
+  --color-primary-500: #d8bc88;
+  --color-primary-600: #c5a26d;
+  --color-primary-700: #a88453;
+  --color-primary-800: #826641;
+  --color-primary-900: #5e4a2f;
+
+  /* ==========================================================
+     Primitive Colors
+     Secondary (Serenity Blue)
+     ========================================================== */
+
+  --color-secondary-50:  #f7fbff;
+  --color-secondary-100: #eef6fd;
+  --color-secondary-200: #dbeaf8;
+  --color-secondary-300: #c2dcf1;
+  --color-secondary-400: #9dc6e6;
+  --color-secondary-500: #79afd8;
+  --color-secondary-600: #5c94be;
+  --color-secondary-700: #47779b;
+  --color-secondary-800: #355b77;
+  --color-secondary-900: #264154;
+
+  /* ==========================================================
+     Primitive Colors
+     Accent
+     ========================================================== */
+
+  --color-accent-50:  #fff7f4;
+  --color-accent-100: #ffece5;
+  --color-accent-200: #ffd6c7;
+  --color-accent-300: #ffb79c;
+  --color-accent-400: #ff9770;
+  --color-accent-500: #f37b4d;
+  --color-accent-600: #d96337;
+  --color-accent-700: #b44e2a;
+  --color-accent-800: #8e3d22;
+  --color-accent-900: #662b18;
+
+  /* ==========================================================
+     Primitive Colors
+     Success
+     ========================================================== */
+
+  --color-success-50:  #f3fbf6;
+  --color-success-100: #e4f5ea;
+  --color-success-200: #c6e8d2;
+  --color-success-300: #9fd7b4;
+  --color-success-400: #72bf91;
+  --color-success-500: #45a76e;
+  --color-success-600: #348858;
+  --color-success-700: #286b45;
+  --color-success-800: #1f5236;
+  --color-success-900: #163b27;
+
+  /* ==========================================================
+     Primitive Colors
+     Warning
+     ========================================================== */
+
+  --color-warning-50:  #fff9ec;
+  --color-warning-100: #fff0cf;
+  --color-warning-200: #ffe09b;
+  --color-warning-300: #ffcb63;
+  --color-warning-400: #f5b531;
+  --color-warning-500: #de9808;
+  --color-warning-600: #b97d06;
+  --color-warning-700: #956405;
+  --color-warning-800: #724b03;
+  --color-warning-900: #533602;
+
+  /* ==========================================================
+     Primitive Colors
+     Danger
+     ========================================================== */
+
+  --color-danger-50:  #fff5f5;
+  --color-danger-100: #ffe3e3;
+  --color-danger-200: #ffc9c9;
+  --color-danger-300: #ffa8a8;
+  --color-danger-400: #ff8787;
+  --color-danger-500: #fa5252;
+  --color-danger-600: #e03131;
+  --color-danger-700: #c92a2a;
+  --color-danger-800: #a61e1e;
+  --color-danger-900: #7a1313;
+
+  /* ==========================================================
+     Primitive Colors
+     Info
+     ========================================================== */
+
+  --color-info-50:  #eef8ff;
+  --color-info-100: #d9efff;
+  --color-info-200: #b8dfff;
+  --color-info-300: #88c7ff;
+  --color-info-400: #58acff;
+  --color-info-500: #2f8fff;
+  --color-info-600: #156fdb;
+  --color-info-700: #1058ae;
+  --color-info-800: #0d4383;
+  --color-info-900: #09305d;
+
+}
