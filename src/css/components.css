@@ -1,0 +1,163 @@
+/**
+ * Palette Atelier
+ * Components
+ * ------------------------------------------------------------
+ * Button
+ * Card
+ * Input
+ * Badge
+ */
+
+
+/* ==========================================================
+   Button
+   ========================================================== */
+
+.c-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+
+  min-height: 40px;
+
+  padding: var(--button-padding-y) var(--button-padding-x);
+
+  border: 1px solid var(--button-primary-border);
+  border-radius: var(--button-radius);
+
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+
+  transition:
+    background-color var(--button-transition-duration) var(--button-transition-timing),
+    border-color var(--button-transition-duration) var(--button-transition-timing),
+    color var(--button-transition-duration) var(--button-transition-timing),
+    box-shadow var(--button-transition-duration) var(--button-transition-timing),
+    transform var(--button-transition-duration) var(--button-transition-timing);
+}
+
+
+/* ---------- Primary ---------- */
+
+.c-button--primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+}
+
+.c-button--primary:hover:not(:disabled) {
+  background: var(--button-primary-bg-hover);
+}
+
+/* ---------- Secondary ---------- */
+
+.c-button--secondary {
+  background: var(--button-secondary-bg);
+  color: var(--button-secondary-text);
+  border-color: var(--button-secondary-border);
+}
+
+.c-button--secondary:hover:not(:disabled) {
+  background: var(--button-secondary-bg-hover);
+}
+
+/* ---------- Danger ---------- */
+
+.c-button--danger {
+  background: var(--button-danger-bg);
+  color: var(--button-danger-text);
+}
+
+.c-button--danger:hover:not(:disabled) {
+  background: var(--button-danger-bg-hover);
+}
+
+/* ---------- Focus ---------- */
+
+.c-button:focus-visible{
+  outline:var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset:var(--focus-ring-offset);
+}
+
+/* ---------- Active ---------- */
+
+.c-button:active{
+  transform:translateY(1px);
+}
+
+/* ---------- Disabled ---------- */
+
+.c-button:disabled {
+  background: var(--button-disabled-bg);
+  color: var(--button-disabled-text);
+  cursor: not-allowed;
+  opacity:.6;
+}
+
+
+/* ==========================================================
+   Card
+   ========================================================== */
+
+.c-card {
+  background: var(--card-bg);
+
+  border: 1px solid var(--card-border);
+  border-radius: var(--card-radius);
+
+  box-shadow: var(--card-shadow);
+
+  padding: var(--card-padding);
+}
+
+
+/* ==========================================================
+   Input
+   ========================================================== */
+
+.c-input {
+  width: 100%;
+
+  padding:
+    var(--input-padding-y)
+    var(--input-padding-x);
+
+  color: var(--input-text);
+  background: var(--input-bg);
+
+  border: 1px solid var(--input-border);
+  border-radius: var(--input-radius);
+
+  transition:
+    border-color var(--duration-default) var(--ease-out),
+    box-shadow var(--duration-default) var(--ease-out);
+}
+
+.c-input:focus-visible {
+  border-color: var(--input-border-focus);
+  outline: none;
+}
+
+
+/* ==========================================================
+   Badge
+   ========================================================== */
+
+.c-badge {
+  display: inline-flex;
+  align-items: center;
+
+  padding:
+    var(--badge-padding-y)
+    var(--badge-padding-x);
+
+  border-radius: var(--badge-radius);
+
+  background: var(--badge-bg);
+  color: var(--badge-text);
+
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-medium);
+
+  white-space: nowrap;
+}
