@@ -13,7 +13,7 @@ Palette Atelier
 
 Version
 
-v1.0.0-alpha.1
+v1.0.0-alpha.2
 
 Status
 
@@ -23,9 +23,11 @@ Status
 
 # Current Milestone
 
-v1.0.0-alpha.2
+Foundation Layer
 
-Design Token Foundation
+Current Phase
+
+Base CSS
 
 ---
 
@@ -34,32 +36,35 @@ Design Token Foundation
 Design Tokens
 
 Progress
-
 🟡 In Progress
 
 ---
 
-# Current Commit
+Last Completed
 
-Commit 3.1
-
-feat(tokens): add primitive color tokens
+feat(tokens): complete design token foundation
 
 Status
-
-✅ Completed
+✅ Done
 
 ---
 
-# Next Commit
+# Current
 
-Commit 3.2
+feat(base): create base.css
 
-feat(tokens): add semantic color tokens
+Status
+🟡 In Progress
+
+---
+
+# Next
+
+feat(layout): create layout.css
 
 Target File
 
-src/css/tokens.css
+src/css/layout.css
 
 ---
 
@@ -70,7 +75,8 @@ src/css/tokens.css
 - [x] Glossary
 - [x] Design Principles
 - [x] Primitive Color Tokens
-- [ ] Semantic Tokens
+- [x] Semantic Tokens
+- [ ] Base Styles
 - [ ] Typography Tokens
 - [ ] Spacing Tokens
 - [ ] Radius Tokens
@@ -89,7 +95,7 @@ src/css/
 
 Current File
 
-tokens.css
+base.css
 
 ---
 
