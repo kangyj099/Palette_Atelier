@@ -1,0 +1,1 @@
+console.log('Palette Atelier alpha.1');
