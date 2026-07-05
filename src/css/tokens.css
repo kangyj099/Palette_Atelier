@@ -272,4 +272,83 @@
   --ease-standard: ease;
   --ease-out: ease-out;
   --ease-in-out: ease-in-out;
+
+    /* ==========================================================
+     Layer 3 : Component Tokens
+     Button
+     ========================================================== */
+
+  --button-primary-bg: var(--primary-base);
+  --button-primary-bg-hover: var(--primary-strong);
+  --button-primary-text: var(--text-inverse);
+  --button-primary-border: transparent;
+
+  --button-secondary-bg: var(--surface-elevated);
+  --button-secondary-bg-hover: var(--surface-subtle);
+  --button-secondary-text: var(--text-primary);
+  --button-secondary-border: var(--border-default);
+
+  --button-danger-bg: var(--status-danger);
+  --button-danger-bg-hover: var(--color-danger-600);
+  --button-danger-text: var(--text-inverse);
+
+  --button-disabled-bg: var(--color-gray-200);
+  --button-disabled-text: var(--text-tertiary);
+
+  --button-radius: var(--radius-md);
+  --button-padding-x: var(--space-4);
+  --button-padding-y: var(--space-2);
+  --button-font-size: var(--font-size-body);
+  --button-font-weight: var(--font-weight-medium);
+  --button-transition-duration: var(--duration-default);
+  --button-transition-timing: var(--ease-out);
+
+
+  /* ==========================================================
+     Layer 3 : Component Tokens
+     Card
+     ========================================================== */
+
+  --card-bg: var(--surface-elevated);
+  --card-border: var(--border-default);
+  --card-radius: var(--radius-lg);
+  --card-shadow: var(--shadow-sm);
+  --card-padding: var(--space-4);
+
+
+  /* ==========================================================
+     Layer 3 : Component Tokens
+     Input
+     ========================================================== */
+
+  --input-bg: var(--surface-elevated);
+  --input-text: var(--text-primary);
+  --input-placeholder: var(--text-tertiary);
+  --input-border: var(--border-default);
+  --input-border-focus: var(--primary-base);
+  --input-radius: var(--radius-md);
+  --input-padding-x: var(--space-3);
+  --input-padding-y: var(--space-2);
+
+
+  /* ==========================================================
+     Layer 3 : Component Tokens
+     Badge
+     ========================================================== */
+
+  --badge-bg: var(--primary-soft);
+  --badge-text: var(--primary-strong);
+  --badge-radius: var(--radius-full);
+  --badge-padding-x: var(--space-2);
+  --badge-padding-y: var(--space-1);
+
+
+  /* ==========================================================
+     Layer 3 : Component Tokens
+     Focus
+     ========================================================== */
+
+  --focus-ring-color: var(--primary-base);
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
 }
