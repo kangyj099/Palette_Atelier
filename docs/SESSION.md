@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-fix(base): apply [hidden] display: none so tab panels actually hide
+feat(theme): wire sidebar theme switch
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(theme): light/dark switch
+feat(tokens): define palette 2~5 color sets
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(tokens): define palette 2~5 color sets
+feat(tokens): define dark theme color sets
 
 ---
 
@@ -117,9 +117,9 @@ index.html
 
 # Known Issues
 
-- Theme switching not implemented.
-- Sidebar Theme / Contrast controls are placeholders, not wired.
+- Sidebar Contrast controls are placeholders, not wired.
 - Palette switch is wired (state + data-palette attribute), but Palette 2~5 have no distinct color tokens yet — switching shows no visual change until those palettes are defined.
+- Theme switch is wired (state + data-theme attribute), but no dark token values exist yet — switching shows no visual change until dark theme is defined.
 - Footer Inspector values are static ("-").
 
 ---
