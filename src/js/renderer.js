@@ -7,6 +7,8 @@ const renderer = {
       tab.addEventListener('click', () => {
         const target = tab.dataset.tab;
 
+        state.currentTab = target;
+
         tabs.forEach((item) => {
           item.classList.remove('p-tabs__item--active');
           item.setAttribute('aria-selected', 'false');

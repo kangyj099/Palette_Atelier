@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(js): wire tab bar switching (Main panels)
+feat(state): define state shape (palette / theme / tab)
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(state): define state shape (palette / theme / tab)
+feat(preview): generate Primitive tab dynamically from tokens
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(preview): generate Primitive tab dynamically from tokens
+feat(palette): wire sidebar palette switch
 
 ---
 
