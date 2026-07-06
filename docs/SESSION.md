@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(preview): add component showcase
+feat(layout): build screen skeleton (header / sidebar / tabs / footer)
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(preview): implement dynamic palette rendering
+feat(js): wire tab bar switching (Main panels)
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(theme): palette switch
+feat(state): define state shape (palette / theme / tab)
 
 ---
 
@@ -116,6 +116,9 @@ index.html
 - Primitive Color Showcase uses inline styles.
 - Showcase is static and should be generated dynamically.
 - Theme switching not implemented.
+- Sidebar Palette / Theme / Contrast controls are placeholders, not wired.
+- Main tab bar does not switch panels yet (Components is hardcoded active).
+- Footer Inspector values are static ("-").
 
 ---
 

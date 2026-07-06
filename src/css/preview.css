@@ -228,3 +228,61 @@
   font-size: var(--font-size-caption);
   color: var(--text-tertiary);
 }
+
+
+/* ==========================================================
+   Tabs
+   ========================================================== */
+
+.p-tabs {
+  display: flex;
+  gap: var(--space-2);
+
+  border-bottom: 1px solid var(--border-default);
+}
+
+.p-tabs__item {
+  padding: var(--space-3) var(--space-4);
+
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-secondary);
+
+  cursor: pointer;
+}
+
+.p-tabs__item--active {
+  border-bottom-color: var(--primary-base);
+  color: var(--text-primary);
+}
+
+
+/* ==========================================================
+   Inspector
+   ========================================================== */
+
+.p-inspector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-6);
+}
+
+.p-inspector__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.p-inspector__label {
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}
+
+.p-inspector__value {
+  font-size: var(--font-size-label);
+  color: var(--text-primary);
+}
