@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(preview): generate Primitive tab dynamically from tokens
+feat(palette): wire sidebar palette switch
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(palette): wire sidebar palette switch
+feat(theme): light/dark switch
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(theme): light/dark switch
+feat(tokens): define palette 2~5 color sets
 
 ---
 
@@ -96,6 +96,8 @@ js/
 - state.js
 - renderer.js
 - preview-engine.js
+- palette-engine.js
+- utils.js (empty, unused)
 
 index.html
 
@@ -116,7 +118,8 @@ index.html
 # Known Issues
 
 - Theme switching not implemented.
-- Sidebar Palette / Theme / Contrast controls are placeholders, not wired.
+- Sidebar Theme / Contrast controls are placeholders, not wired.
+- Palette switch is wired (state + data-palette attribute), but Palette 2~5 have no distinct color tokens yet — switching shows no visual change until those palettes are defined.
 - Footer Inspector values are static ("-").
 
 ---
