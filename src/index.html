@@ -1,11 +1,167 @@
-<!doctype html><html lang='ko'><head><meta charset='utf-8'>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset='utf-8'>
 <meta name='viewport' content='width=device-width,initial-scale=1'>
+
 <title>Palette Atelier</title>
 <link rel='stylesheet' href='css/tokens.css'>
 <link rel='stylesheet' href='css/base.css'>
 <link rel='stylesheet' href='css/layout.css'>
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/preview.css">
+<link rel="stylesheet" href="css/utilities.css">
+
 </head><body>
-<header><h1>Palette Atelier</h1><nav>Palette · Components · Preview · Accessibility · Export</nav></header>
-<main><aside>Sidebar (coming soon)</aside><section>Main Workspace</section></main>
-<footer>Inspector (coming soon)</footer>
+<header class="l-header"><h1>Palette Atelier</h1><nav>Palette · Components · Preview · Accessibility · Export</nav></header>
+<main class="l-app"><aside class="l-sidebar">Sidebar (coming soon)</aside>
+    <section class="l-main">
+
+        <div class="l-content">
+            
+            <div class="p-showcase">
+
+<!-- ===================================================== -->
+<!-- Buttons -->
+<!-- ===================================================== -->
+
+            <section class="p-showcase__section">
+
+                <h2 class="p-showcase__title">
+                    Buttons
+                </h2>
+
+                <div class="p-showcase__row">
+
+                    <button class="c-button c-button--primary">
+                        Primary
+                    </button>
+
+                    <button class="c-button c-button--secondary">
+                        Secondary
+                    </button>
+
+                    <button class="c-button c-button--danger">
+                        Danger
+                    </button>
+
+                    <button
+                        class="c-button c-button--primary"
+                        disabled>
+                        Disabled
+                    </button>
+
+                </div>
+
+            </section>
+
+
+    <!-- ===================================================== -->
+    <!-- Inputs -->
+    <!-- ===================================================== -->
+
+            <section class="p-showcase__section">
+
+                <h2 class="p-showcase__title">
+                    Inputs
+                </h2>
+
+                <div class="p-showcase__stack">
+
+                    <input
+                        class="c-input"
+                        placeholder="Default Input">
+
+                    <input
+                        class="c-input"
+                        value="Focused Input"
+                        autofocus>
+
+                    <input
+                        class="c-input"
+                        placeholder="Disabled Input"
+                        disabled>
+
+                </div>
+
+            </section>
+
+
+    <!-- ===================================================== -->
+    <!-- Badges -->
+    <!-- ===================================================== -->
+
+            <section class="p-showcase__section">
+
+                <h2 class="p-showcase__title">
+                    Badges
+                </h2>
+
+                <div class="p-showcase__row">
+
+                    <span class="c-badge">
+                        Default
+                    </span>
+
+                    <span class="c-badge c-badge--info">
+                        Info
+                    </span>
+
+                    <span class="c-badge c-badge--success">
+                        Success
+                    </span>
+
+                    <span class="c-badge c-badge--warning">
+                        Warning
+                    </span>
+
+                    <span class="c-badge c-badge--danger">
+                        Danger
+                    </span>
+
+                </div>
+
+            </section>
+
+
+    <!-- ===================================================== -->
+    <!-- Card -->
+    <!-- ===================================================== -->
+
+            <section class="p-showcase__section">
+
+                <h2 class="p-showcase__title">
+                    Card
+                </h2>
+
+                <div class="c-card">
+
+                    <h3>
+                        Card Title
+                    </h3>
+
+                    <p>
+
+                        This is an example card for validating
+                        typography, spacing, radius, border,
+                        and shadow tokens.
+
+                    </p>
+
+                    <button class="c-button c-button--primary">
+                        Action
+                    </button>
+
+                </div>
+
+            </section>
+
+        </div> <!-- p-showcase -->
+
+    </div> <!-- l-content -->
+
+</section> <!-- l-main -->
+
+</main>
+<footer class="l-footer">Inspector (coming soon)</footer>
 <script src='js/state.js'></script><script src='js/app.js'></script></body></html>

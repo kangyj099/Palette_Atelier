@@ -161,3 +161,23 @@
 
   white-space: nowrap;
 }
+
+.c-badge--info {
+    background: var(--status-info);
+    color: var(--text-inverse);
+}
+
+.c-badge--success {
+    background: var(--status-success);
+    color: var(--text-inverse);
+}
+
+.c-badge--warning {
+    background: var(--status-warning);
+    color: var(--text-inverse);
+}
+
+.c-badge--danger {
+    background: var(--status-danger);
+    color: var(--text-inverse);
+}
