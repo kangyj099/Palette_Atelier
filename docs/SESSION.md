@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(layout): build screen skeleton (header / sidebar / tabs / footer)
+feat(js): wire tab bar switching (Main panels)
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(js): wire tab bar switching (Main panels)
+feat(state): define state shape (palette / theme / tab)
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(state): define state shape (palette / theme / tab)
+feat(preview): generate Primitive tab dynamically from tokens
 
 ---
 
@@ -94,6 +94,7 @@ css/
 js/
 - app.js
 - state.js
+- renderer.js
 
 index.html
 
@@ -117,7 +118,6 @@ index.html
 - Showcase is static and should be generated dynamically.
 - Theme switching not implemented.
 - Sidebar Palette / Theme / Contrast controls are placeholders, not wired.
-- Main tab bar does not switch panels yet (Components is hardcoded active).
 - Footer Inspector values are static ("-").
 
 ---

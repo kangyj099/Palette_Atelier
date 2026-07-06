@@ -55,13 +55,21 @@
         <div class="l-content">
 
             <div class="p-tabs" role="tablist">
-                <button class="p-tabs__item" type="button" role="tab">Primitive</button>
-                <button class="p-tabs__item" type="button" role="tab">Semantic</button>
-                <button class="p-tabs__item p-tabs__item--active" type="button" role="tab" aria-selected="true">Components</button>
-                <button class="p-tabs__item" type="button" role="tab">App</button>
+                <button class="p-tabs__item" type="button" role="tab" data-tab="primitive" aria-selected="false">Primitive</button>
+                <button class="p-tabs__item" type="button" role="tab" data-tab="semantic" aria-selected="false">Semantic</button>
+                <button class="p-tabs__item p-tabs__item--active" type="button" role="tab" data-tab="components" aria-selected="true">Components</button>
+                <button class="p-tabs__item" type="button" role="tab" data-tab="app" aria-selected="false">App</button>
             </div>
 
-            <div class="p-showcase">
+            <div class="p-panel" data-panel="primitive" role="tabpanel" hidden>
+                <p class="p-showcase__description">Primitive tab coming soon.</p>
+            </div>
+
+            <div class="p-panel" data-panel="semantic" role="tabpanel" hidden>
+                <p class="p-showcase__description">Semantic tab coming soon.</p>
+            </div>
+
+            <div class="p-showcase" data-panel="components" role="tabpanel">
 
 <!-- ===================================================== -->
 <!-- Buttons -->
@@ -262,6 +270,10 @@
 
             </div> <!-- p-showcase -->
 
+            <div class="p-panel" data-panel="app" role="tabpanel" hidden>
+                <p class="p-showcase__description">App tab coming soon.</p>
+            </div>
+
         </div> <!-- l-content -->
 
     </section> <!-- l-main -->
@@ -276,4 +288,4 @@
         <div class="p-inspector__row"><span class="p-inspector__label">Used By</span><span class="p-inspector__value">-</span></div>
     </div>
 </footer>
-<script src='js/state.js'></script><script src='js/app.js'></script></body></html>
+<script src='js/state.js'></script><script src='js/renderer.js'></script><script src='js/app.js'></script></body></html>
