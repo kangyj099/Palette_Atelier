@@ -1,9 +1,7 @@
 # SESSION
 
-> 현재 개발 세션의 작업 상태를 기록한다.
->
-> 이 문서는 항상 최신 상태만 유지한다.
-> 이전 작업 이력은 CHANGELOG.md에서 관리한다.
+> Current development status for Palette Atelier.
+> Always keep this document up to date.
 
 ---
 
@@ -23,48 +21,37 @@ Status
 
 # Current Milestone
 
-Foundation Layer
+Interactive Preview
 
 Current Phase
 
-Base CSS
+Dynamic Preview
 
 ---
 
-# Current Epic
+# Last Completed
 
-Design Tokens
-
-Progress
-🟡 In Progress
-
----
-
-Last Completed
-
-feat(tokens): complete design token foundation
+feat(preview): add component showcase
 
 Status
-✅ Done
+
+✅ Completed
 
 ---
 
 # Current
 
-feat(base): create base.css
+feat(preview): implement dynamic palette rendering
 
 Status
-🟡 In Progress
+
+🟡 Ready
 
 ---
 
 # Next
 
-feat(layout): create layout.css
-
-Target File
-
-src/css/layout.css
+feat(theme): palette switch
 
 ---
 
@@ -72,30 +59,43 @@ src/css/layout.css
 
 - [x] Project Skeleton
 - [x] Project Documents
-- [x] Glossary
 - [x] Design Principles
-- [x] Primitive Color Tokens
+- [x] Primitive Tokens
 - [x] Semantic Tokens
-- [ ] Base Styles
-- [ ] Typography Tokens
-- [ ] Spacing Tokens
-- [ ] Radius Tokens
-- [ ] Shadow Tokens
-- [ ] Motion Tokens
-- [ ] Theme Engine
-- [ ] Preview
+- [x] Base Styles
+- [x] Layout
+- [x] Components
+- [x] Preview Components
+- [x] Utilities
+- [ ] Dynamic Palette
+- [ ] Theme Switch
 - [ ] Accessibility Preview
+- [ ] Phone Preview
 - [ ] Export
 
 ---
 
 # Current Folder
 
-src/css/
+src/
 
-Current File
+---
 
-base.css
+# Current Files
+
+css/
+- tokens.css
+- base.css
+- layout.css
+- components.css
+- preview.css
+- utilities.css
+
+js/
+- app.js
+- state.js
+
+index.html
 
 ---
 
@@ -103,30 +103,30 @@ base.css
 
 - MVP First
 - One Logical Change per Commit
-- Semantic Tokens Only
-- Documentation Together
+- CSS owns design tokens
+- JavaScript never owns colors
 - Accessibility by Default
+- Preview validates tokens
 - Explanation < Code
-- Every response must generate at least one project file
 
 ---
 
 # Known Issues
 
-None
+- Primitive Color Showcase uses inline styles.
+- Showcase is static and should be generated dynamically.
+- Theme switching not implemented.
 
 ---
 
 # Parking Lot
 
-> 현재 Release에서는 구현하지 않지만
-> 이후 검토할 아이디어를 기록한다.
-
 - Multi Theme
-- Dark Mode Fine Tuning
-- Theme Import / Export
+- Dark Mode
 - Token Inspector
+- Export Tokens
 - Component Search
+- Design Audit
 
 ---
 
