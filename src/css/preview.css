@@ -117,6 +117,8 @@
 .p-swatch__color {
   aspect-ratio: 1;
 
+  background: var(--swatch-color);
+
   border-radius: var(--radius-md);
   border: 1px solid var(--border-default);
 

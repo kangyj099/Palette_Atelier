@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(state): define state shape (palette / theme / tab)
+feat(preview): generate Primitive tab dynamically from tokens
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(preview): generate Primitive tab dynamically from tokens
+feat(palette): wire sidebar palette switch
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(palette): wire sidebar palette switch
+feat(theme): light/dark switch
 
 ---
 
@@ -95,6 +95,7 @@ js/
 - app.js
 - state.js
 - renderer.js
+- preview-engine.js
 
 index.html
 
@@ -114,8 +115,6 @@ index.html
 
 # Known Issues
 
-- Primitive Color Showcase uses inline styles.
-- Showcase is static and should be generated dynamically.
 - Theme switching not implemented.
 - Sidebar Palette / Theme / Contrast controls are placeholders, not wired.
 - Footer Inspector values are static ("-").

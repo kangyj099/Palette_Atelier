@@ -1,1 +1,2 @@
 renderer.initTabs();
+previewEngine.renderPrimitiveTab();
