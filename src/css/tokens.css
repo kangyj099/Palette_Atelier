@@ -140,6 +140,179 @@
   --color-info-800: #0d4383;
   --color-info-900: #09305d;
 
+}
+
+/* ==========================================================
+   Palette Variants
+   ------------------------------------------------------------
+   Palette 1 : Linen Serenity (default, defined in :root above)
+   Palette 2 : Morning Sky
+   Palette 3 : Editorial
+   Palette 4 : Romantic
+   Palette 5 : Golden Hour
+   ------------------------------------------------------------
+   Neutral / Success / Warning / Danger / Info stay shared
+   across palettes. Only Primary / Secondary / Accent change.
+   ========================================================== */
+
+:root[data-palette="palette-2"] {
+
+  /* Morning Sky - Primary (Sky Blue) */
+  --color-primary-50:  #f5fafe;
+  --color-primary-100: #e8f4fd;
+  --color-primary-200: #cce7fa;
+  --color-primary-300: #a8d5f5;
+  --color-primary-400: #7cbeed;
+  --color-primary-500: #4fa3e0;
+  --color-primary-600: #3a85c0;
+  --color-primary-700: #2d689a;
+  --color-primary-800: #234f76;
+  --color-primary-900: #1a3a56;
+
+  /* Morning Sky - Secondary (Warm Ivory) */
+  --color-secondary-50:  #fffdf9;
+  --color-secondary-100: #fef9ef;
+  --color-secondary-200: #fcf1da;
+  --color-secondary-300: #f8e6bd;
+  --color-secondary-400: #f1d494;
+  --color-secondary-500: #e6bd6a;
+  --color-secondary-600: #cc9f4d;
+  --color-secondary-700: #a9803a;
+  --color-secondary-800: #83632c;
+  --color-secondary-900: #5e451e;
+
+  /* Morning Sky - Accent (Soft Coral) */
+  --color-accent-50:  #fff6f4;
+  --color-accent-100: #ffe9e4;
+  --color-accent-200: #ffd1c6;
+  --color-accent-300: #ffb09d;
+  --color-accent-400: #ff8c72;
+  --color-accent-500: #f56b4d;
+  --color-accent-600: #d6543a;
+  --color-accent-700: #b1422c;
+  --color-accent-800: #8a3421;
+  --color-accent-900: #632517;
+}
+
+:root[data-palette="palette-3"] {
+
+  /* Editorial - Primary (Ink) */
+  --color-primary-50:  #f7f7f8;
+  --color-primary-100: #eeeef0;
+  --color-primary-200: #dcdce0;
+  --color-primary-300: #c0c0c7;
+  --color-primary-400: #9b9ba5;
+  --color-primary-500: #71717d;
+  --color-primary-600: #52525c;
+  --color-primary-700: #3c3c44;
+  --color-primary-800: #27272d;
+  --color-primary-900: #16161a;
+
+  /* Editorial - Secondary (Stone) */
+  --color-secondary-50:  #f9f8f6;
+  --color-secondary-100: #f1efec;
+  --color-secondary-200: #e2ded7;
+  --color-secondary-300: #cec7bb;
+  --color-secondary-400: #b0a696;
+  --color-secondary-500: #8f8371;
+  --color-secondary-600: #726757;
+  --color-secondary-700: #5a5145;
+  --color-secondary-800: #443d35;
+  --color-secondary-900: #2f2a24;
+
+  /* Editorial - Accent (Mustard) */
+  --color-accent-50:  #fdf9ee;
+  --color-accent-100: #faf0d1;
+  --color-accent-200: #f3dea1;
+  --color-accent-300: #e9c66c;
+  --color-accent-400: #dcac41;
+  --color-accent-500: #c4922a;
+  --color-accent-600: #a17420;
+  --color-accent-700: #7e5a1a;
+  --color-accent-800: #5f4315;
+  --color-accent-900: #423010;
+}
+
+:root[data-palette="palette-4"] {
+
+  /* Romantic - Primary (Blush Rose) */
+  --color-primary-50:  #fff8f8;
+  --color-primary-100: #fdedee;
+  --color-primary-200: #fad9db;
+  --color-primary-300: #f5bcc0;
+  --color-primary-400: #ee979d;
+  --color-primary-500: #e3717a;
+  --color-primary-600: #c65963;
+  --color-primary-700: #a2454e;
+  --color-primary-800: #7d363d;
+  --color-primary-900: #59272c;
+
+  /* Romantic - Secondary (Dusty Mauve) */
+  --color-secondary-50:  #faf7f8;
+  --color-secondary-100: #f3ecee;
+  --color-secondary-200: #e5d6da;
+  --color-secondary-300: #d1b7bf;
+  --color-secondary-400: #b593a0;
+  --color-secondary-500: #977181;
+  --color-secondary-600: #7b5a68;
+  --color-secondary-700: #614653;
+  --color-secondary-800: #4a353f;
+  --color-secondary-900: #35262d;
+
+  /* Romantic - Accent (Warm Coral) */
+  --color-accent-50:  #fff6f3;
+  --color-accent-100: #ffe6de;
+  --color-accent-200: #ffc9b8;
+  --color-accent-300: #ffa48b;
+  --color-accent-400: #fb7b5c;
+  --color-accent-500: #ea5a3a;
+  --color-accent-600: #c8462a;
+  --color-accent-700: #a2371f;
+  --color-accent-800: #7c2b18;
+  --color-accent-900: #582010;
+}
+
+:root[data-palette="palette-5"] {
+
+  /* Golden Hour - Primary (Amber Terracotta) */
+  --color-primary-50:  #fff8f2;
+  --color-primary-100: #ffedd9;
+  --color-primary-200: #ffd7ac;
+  --color-primary-300: #ffbb79;
+  --color-primary-400: #fa9a4c;
+  --color-primary-500: #e87c2e;
+  --color-primary-600: #c3611f;
+  --color-primary-700: #9c4b19;
+  --color-primary-800: #763a16;
+  --color-primary-900: #532912;
+
+  /* Golden Hour - Secondary (Warm Sand) */
+  --color-secondary-50:  #fdfaf6;
+  --color-secondary-100: #f9f1e6;
+  --color-secondary-200: #f1e2c8;
+  --color-secondary-300: #e5cc9f;
+  --color-secondary-400: #d4b073;
+  --color-secondary-500: #bd934f;
+  --color-secondary-600: #9c773c;
+  --color-secondary-700: #7c5e30;
+  --color-secondary-800: #5e4726;
+  --color-secondary-900: #43331c;
+
+  /* Golden Hour - Accent (Deep Teal) */
+  --color-accent-50:  #f2fbfa;
+  --color-accent-100: #dcf3f0;
+  --color-accent-200: #b3e4de;
+  --color-accent-300: #82cec4;
+  --color-accent-400: #52b1a5;
+  --color-accent-500: #349385;
+  --color-accent-600: #26766c;
+  --color-accent-700: #1e5d55;
+  --color-accent-800: #18473f;
+  --color-accent-900: #12332f;
+}
+
+:root {
+
     /* ==========================================================
         Layer 2 : Semantic Tokens
         ========================================================== */

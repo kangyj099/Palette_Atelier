@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(theme): wire sidebar theme switch
+feat(tokens): define palette 2~5 color sets (Morning Sky / Editorial / Romantic / Golden Hour)
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(tokens): define palette 2~5 color sets
+feat(tokens): define dark theme color sets
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(tokens): define dark theme color sets
+feat(inspector): wire footer inspector to selected token
 
 ---
 
@@ -67,7 +67,7 @@ feat(tokens): define dark theme color sets
 - [x] Components
 - [x] Preview Components
 - [x] Utilities
-- [ ] Dynamic Palette
+- [x] Dynamic Palette
 - [ ] Theme Switch
 - [ ] Accessibility Preview
 - [ ] Phone Preview
@@ -118,7 +118,6 @@ index.html
 # Known Issues
 
 - Sidebar Contrast controls are placeholders, not wired.
-- Palette switch is wired (state + data-palette attribute), but Palette 2~5 have no distinct color tokens yet — switching shows no visual change until those palettes are defined.
 - Theme switch is wired (state + data-theme attribute), but no dark token values exist yet — switching shows no visual change until dark theme is defined.
 - Footer Inspector values are static ("-").
 
