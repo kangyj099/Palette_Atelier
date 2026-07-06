@@ -298,21 +298,25 @@ utils.js
 
 docs/
 
-00_glossary.md
+ref_00_architecture.md
 
-01_design-principles.md
+ref_01_glossary.md
 
-02_project-brief.md
+ref_02_design-principles.md
 
-03_architecture.md
+ref_03_project-brief.md
 
-04_token-guidelines.md
+ref_04_token-guidelines.md
 
-05_component-guidelines.md
+ref_05_component-guidelines.md
 
-06_accessibility.md
+ref_06_accessibility.md
 
-07_adr/
+log_07_adr/
+
+ref_ : 참고/정적 문서
+
+log_ : 의사결정 등 누적 문서
 
 새로운 시스템이 추가되면
 

@@ -173,21 +173,25 @@ exports/
 
 docs/
 
-00-glossary.md
+ref_00_architecture.md
 
-01-design-principles.md
+ref_01_glossary.md
 
-02-project-brief.md
+ref_02_design-principles.md
 
-03-architecture.md
+ref_03_project-brief.md
 
-04-token-guidelines.md
+ref_04_token-guidelines.md
 
-05-component-guidelines.md
+ref_05_component-guidelines.md
 
-06-accessibility.md
+ref_06_accessibility.md
 
-07-adr/
+log_07_adr/
+
+ref_ : 참고/정적 문서
+
+log_ : 의사결정 등 누적 문서
 
 ---
 
