@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(palette): wire sidebar palette switch
+fix(base): apply [hidden] display: none so tab panels actually hide
 
 Status
 
