@@ -311,6 +311,31 @@
   --color-accent-900: #12332f;
 }
 
+/* ==========================================================
+   Theme Variants
+   ------------------------------------------------------------
+   Light is the default (defined in the Semantic Tokens block
+   below). Dark only remaps Surface / Text / Border — brand
+   (Primary/Secondary/Accent) and status colors stay identical
+   across themes so information hierarchy doesn't shift.
+   ========================================================== */
+
+:root[data-theme="dark"] {
+  --surface-base: var(--color-gray-900);
+  --surface-subtle: var(--color-gray-700);
+  --surface-elevated: var(--color-gray-800);
+
+  --text-primary: var(--color-gray-50);
+  --text-secondary: var(--color-gray-300);
+  --text-tertiary: var(--color-gray-500);
+
+  --border-default: var(--color-gray-700);
+  --border-strong: var(--color-gray-600);
+
+  --button-disabled-bg: var(--color-gray-700);
+  --button-disabled-text: var(--color-gray-500);
+}
+
 :root {
 
     /* ==========================================================
