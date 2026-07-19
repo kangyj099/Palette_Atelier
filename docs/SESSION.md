@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(tokens): define dark theme color sets
+feat(inspector): wire footer inspector to selected token
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(inspector): wire footer inspector to selected token
+feat(a11y): wire sidebar contrast toggle
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(a11y): wire sidebar contrast toggle
+feat(a11y): wire focus ring toggle
 
 ---
 
@@ -97,7 +97,7 @@ js/
 - renderer.js
 - preview-engine.js
 - palette-engine.js
-- utils.js (empty, unused)
+- utils.js
 
 index.html
 
@@ -118,7 +118,6 @@ index.html
 # Known Issues
 
 - Sidebar Contrast controls are placeholders, not wired.
-- Footer Inspector values are static ("-").
 
 ---
 

@@ -1,4 +1,34 @@
 const renderer = {
+  semanticTokens: [
+    '--surface-base', '--surface-subtle', '--surface-elevated',
+    '--text-primary', '--text-secondary', '--text-tertiary', '--text-inverse',
+    '--border-default', '--border-strong',
+    '--primary-base', '--primary-strong', '--primary-soft',
+    '--accent-base', '--accent-soft',
+    '--status-success', '--status-warning', '--status-danger', '--status-info',
+  ],
+
+  inspectToken(token) {
+    state.selectedToken = token;
+
+    const color = utils.resolveColor(token);
+    const hex = utils.rgbToHex(color);
+    const surface = utils.resolveColor('--surface-base');
+    const ratio = utils.contrastRatio(color, surface);
+
+    const usedBy = this.semanticTokens.filter(
+      (name) => utils.resolveColor(name) === color
+    );
+
+    document.querySelector('[data-field="name"]').textContent = token;
+    document.querySelector('[data-field="hex"]').textContent = hex;
+    document.querySelector('[data-field="contrast"]').textContent = `${ratio.toFixed(2)} : 1`;
+    document.querySelector('[data-field="wcag"]').textContent = utils.wcagLevel(ratio);
+    document.querySelector('[data-field="usedby"]').textContent = usedBy.length
+      ? usedBy.join(', ')
+      : '-';
+  },
+
   initTabs() {
     const tabs = document.querySelectorAll('.p-tabs__item');
     const panels = document.querySelectorAll('[data-panel]');

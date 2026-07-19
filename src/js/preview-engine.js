@@ -41,9 +41,12 @@ const previewEngine = {
         const swatch = document.createElement('div');
         swatch.className = 'p-swatch';
 
-        const color = document.createElement('div');
+        const color = document.createElement('button');
+        color.type = 'button';
         color.className = 'p-swatch__color';
         color.style.setProperty('--swatch-color', `var(${token})`);
+        color.setAttribute('aria-label', token);
+        color.addEventListener('click', () => renderer.inspectToken(token));
         swatch.appendChild(color);
 
         const label = document.createElement('span');
