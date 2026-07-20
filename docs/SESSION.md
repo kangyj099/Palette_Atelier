@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(inspector): wire footer inspector to selected token
+feat(a11y): wire sidebar contrast toggle
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(a11y): wire sidebar contrast toggle
+feat(a11y): wire focus ring toggle
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(a11y): wire focus ring toggle
+feat(preview): render Semantic tab
 
 ---
 
@@ -117,7 +117,7 @@ index.html
 
 # Known Issues
 
-- Sidebar Contrast controls are placeholders, not wired.
+- Focus Ring toggle is a placeholder, not wired.
 
 ---
 

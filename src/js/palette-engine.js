@@ -42,4 +42,21 @@ const paletteEngine = {
     state.currentTheme = theme;
     document.documentElement.dataset.theme = theme;
   },
+
+  initContrast() {
+    const toggle = document.querySelector('[data-a11y="contrast"]');
+
+    if (!toggle) return;
+
+    this.setContrast(toggle.checked);
+
+    toggle.addEventListener('change', () => {
+      this.setContrast(toggle.checked);
+    });
+  },
+
+  setContrast(enabled) {
+    state.accessibility.contrast = enabled;
+    document.documentElement.dataset.contrast = enabled ? 'high' : 'normal';
+  },
 };
