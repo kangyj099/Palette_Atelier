@@ -208,118 +208,13 @@ Prefer extending established patterns over creating new ones.
 
 ---
 
-# CSS Rules
+# CSS & JavaScript Rules
 
 CSS owns the design system.
 
----
+JavaScript controls behavior, not visual design.
 
-## Tokens First
-
-Never hardcode visual values.
-
-Always use tokens.
-
-Avoid
-
-```css
-color: #394550;
-```
-
-Prefer
-
-```css
-color: var(--text-primary);
-```
-
----
-
-## Layer Order
-
-Primitive
-
-↓
-
-Semantic
-
-↓
-
-Component
-
-↓
-
-Preview
-
-↓
-
-Utilities
-
-Higher layers depend on lower layers.
-
-Never the opposite.
-
----
-
-## Components
-
-Components consume semantic tokens.
-
-They never reference primitive tokens directly.
-
----
-
-## Accessibility
-
-Accessibility is mandatory.
-
-Always include:
-
-- Focus States
-- Disabled States
-- Keyboard Navigation
-- Contrast Awareness
-
----
-
-# JavaScript Rules
-
-JavaScript controls behavior.
-
-Not visual design.
-
----
-
-## Never Own Design Values
-
-JavaScript may
-
-✅ Read Tokens
-
-✅ Switch Themes
-
-✅ Update State
-
-JavaScript must not
-
-❌ Store Colors
-
-❌ Define Typography
-
-❌ Duplicate Tokens
-
----
-
-## State Driven
-
-Rendering should always depend on state.
-
-Avoid direct DOM manipulation when state changes are available.
-
----
-
-## Small Modules
-
-Prefer several focused files over one large file.
+Detailed CSS layering, token usage, and JavaScript architecture rules are owned by ENGINEERING_GUIDE.md.
 
 ---
 
@@ -331,33 +226,13 @@ Preview is the primary validation environment.
 
 ---
 
-# Inspector Rules
+# Inspector & Rule Engine
 
-The Inspector exists to explain the design system.
+The Inspector exists to explain the design system, not merely display data.
 
-Not merely display data.
+Validation should always be deterministic. Avoid subjective scoring.
 
-Future Inspector responsibilities
-
-- Token Details
-- Usage
-- Dependencies
-- Accessibility
-- Rule Results
-
----
-
-# Rule Engine
-
-Validation should always be deterministic.
-
-Avoid subjective scoring.
-
-Every rule should produce:
-
-- Result
-- Reason
-- Recommendation
+Detailed Inspector and Rule Engine responsibilities are owned by ref_00_architecture.md.
 
 ---
 
