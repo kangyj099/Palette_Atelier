@@ -76,6 +76,27 @@ Palette Atelier는 부드러운 분위기를 추구한다.
 
 ---
 
+## Visual Direction
+
+Inspiration
+
+- Apple Human Interface Guidelines
+- Linear
+- Raycast
+- Vercel
+- Arc Browser
+
+Keywords
+
+- Warm
+- Elegant
+- Editorial
+- Soft
+- Minimal
+- Timeless
+
+---
+
 # 3. Color Principles
 
 ## Neutral First
@@ -117,6 +138,14 @@ Accent는 화면의 5~10%를 넘지 않는 것을 권장한다.
 Primary보다 Success, Warning, Danger의 구분이 더 중요하다.
 
 모든 상태 색상은 색약 환경에서도 구분 가능해야 한다.
+
+---
+
+## Core Palette Direction
+
+메인 컬러는 Warm Ivory, Warm Beige, Linen, Sky Blue, Serenity Blue 계열을 중심으로 한다.
+
+과도한 비비드 컬러는 사용하지 않는다.
 
 ---
 
