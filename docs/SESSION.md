@@ -21,7 +21,7 @@ Status
 
 # Current Milestone
 
-Interactive Preview
+Interactive Design Review
 
 Current Phase
 

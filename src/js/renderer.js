@@ -11,6 +11,9 @@ const renderer = {
   inspectToken(token) {
     state.selectedToken = token;
 
+    document.querySelector('[data-inspector="empty"]').hidden = true;
+    document.querySelector('[data-inspector="details"]').hidden = false;
+
     const color = utils.resolveColor(token);
     const hex = utils.rgbToHex(color);
     const surface = utils.resolveColor('--surface-base');

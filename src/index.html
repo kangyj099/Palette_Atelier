@@ -215,11 +215,17 @@
 </main>
 <footer class="l-footer">
     <div class="p-inspector">
-        <div class="p-inspector__row"><span class="p-inspector__label">Token Name</span><span class="p-inspector__value" data-field="name">-</span></div>
-        <div class="p-inspector__row"><span class="p-inspector__label">HEX</span><span class="p-inspector__value" data-field="hex">-</span></div>
-        <div class="p-inspector__row"><span class="p-inspector__label">Contrast</span><span class="p-inspector__value" data-field="contrast">-</span></div>
-        <div class="p-inspector__row"><span class="p-inspector__label">WCAG</span><span class="p-inspector__value" data-field="wcag">-</span></div>
-        <div class="p-inspector__row"><span class="p-inspector__label">Used By</span><span class="p-inspector__value" data-field="usedby">-</span></div>
+        <div class="p-inspector__empty" data-inspector="empty">
+            <p class="p-inspector__empty-title">Select a token to inspect.</p>
+            <p class="p-inspector__empty-description">Click any color swatch or semantic token to view its information.</p>
+        </div>
+        <div class="p-inspector__details" data-inspector="details" hidden>
+            <div class="p-inspector__row"><span class="p-inspector__label">Token Name</span><span class="p-inspector__value" data-field="name">-</span></div>
+            <div class="p-inspector__row"><span class="p-inspector__label">HEX</span><span class="p-inspector__value" data-field="hex">-</span></div>
+            <div class="p-inspector__row"><span class="p-inspector__label">Contrast</span><span class="p-inspector__value" data-field="contrast">-</span></div>
+            <div class="p-inspector__row"><span class="p-inspector__label">WCAG</span><span class="p-inspector__value" data-field="wcag">-</span></div>
+            <div class="p-inspector__row"><span class="p-inspector__label">Used By</span><span class="p-inspector__value" data-field="usedby">-</span></div>
+        </div>
     </div>
 </footer>
 <script src='js/state.js'></script><script src='js/utils.js'></script><script src='js/renderer.js'></script><script src='js/preview-engine.js'></script><script src='js/palette-engine.js'></script><script src='js/app.js'></script></body></html>
