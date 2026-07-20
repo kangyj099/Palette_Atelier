@@ -1,6 +1,6 @@
 # Palette Atelier Design Principles
 
-> 본 문서는 Palette Atelier와 OOTD App이 공유하는 디자인 철학을 정의한다.
+> 본 문서는 Palette Atelier의 디자인 철학을 정의한다.
 >
 > 새로운 기능이나 컴포넌트를 추가할 때는 반드시 이 문서를 먼저 확인한다.
 >
@@ -10,17 +10,7 @@
 
 # 1. Product Vision
 
-Palette Atelier는 단순한 컬러 팔레트 뷰어가 아니다.
-
-Palette Atelier는
-
-- 디자인 시스템
-- 디자인 레퍼런스
-- 컴포넌트 플레이그라운드
-
-를 동시에 제공하는 프로젝트이다.
-
-Palette Atelier에서 검증된 디자인만 실제 OOTD App에 적용한다.
+Palette Atelier의 Product Vision은 VISION.md를 참고한다.
 
 ---
 
@@ -28,7 +18,7 @@ Palette Atelier에서 검증된 디자인만 실제 OOTD App에 적용한다.
 
 ## Photos First
 
-사용자가 기록한 OOTD 사진이 항상 가장 중요하다.
+사용자가 기록한 사진이 항상 가장 중요하다.
 
 UI는 사진을 꾸미는 역할이 아니라,
 사진을 더 잘 보여주는 역할을 한다.
@@ -255,13 +245,7 @@ Motion은 정보를 보조하는 역할이다.
 
 # 10. Long-term Goal
 
-Palette Atelier는
-
-OOTD App을 위한 도구이면서
-
-동시에
-
-앞으로 만드는 모든 프로젝트에서 재사용 가능한 디자인 시스템을 목표로 한다.
+Palette Atelier의 장기 목표는 VISION.md를 참고한다.
 
 ---
 
