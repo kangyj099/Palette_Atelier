@@ -59,4 +59,21 @@ const paletteEngine = {
     state.accessibility.contrast = enabled;
     document.documentElement.dataset.contrast = enabled ? 'high' : 'normal';
   },
+
+  initFocusRing() {
+    const toggle = document.querySelector('[data-a11y="focus-ring"]');
+
+    if (!toggle) return;
+
+    this.setFocusRing(toggle.checked);
+
+    toggle.addEventListener('change', () => {
+      this.setFocusRing(toggle.checked);
+    });
+  },
+
+  setFocusRing(enabled) {
+    state.accessibility.focusRing = enabled;
+    document.documentElement.dataset.focusRing = enabled ? 'on' : 'off';
+  },
 };

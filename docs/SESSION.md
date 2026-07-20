@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(a11y): wire sidebar contrast toggle
+feat(a11y): wire focus ring toggle
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(a11y): wire focus ring toggle
+feat(preview): render Semantic tab
 
 Status
 
@@ -51,7 +51,7 @@ Status
 
 # Next
 
-feat(preview): render Semantic tab
+TBD
 
 ---
 
@@ -117,7 +117,7 @@ index.html
 
 # Known Issues
 
-- Focus Ring toggle is a placeholder, not wired.
+_None._
 
 ---
 

@@ -144,6 +144,10 @@ small {
   outline-offset: var(--focus-ring-offset);
 }
 
+:root[data-focus-ring="off"] :focus-visible {
+  outline: none;
+}
+
 
 /* ==========================================================
    Utility Elements
