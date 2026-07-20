@@ -11,9 +11,12 @@
 
 ## Palette Atelier
 
-OOTD 앱을 위한 디자인 시스템이자 디자인 플레이그라운드.
+독립형 Design System Workbench.
 
-Palette Atelier는 실제 앱과 동일한 디자인 언어를 사용하는 Source of Truth이다.
+OOTD(Outfit Of The Day) 앱 개발 과정에서 출발했으며,
+현재는 특정 앱에 종속되지 않는 독립적인 디자인 시스템 도구로 발전하고 있다.
+
+제품 비전에 대한 자세한 내용은 VISION.md를 참고한다.
 
 ---
 
@@ -314,11 +317,7 @@ previewRenderer
 
 # Project Principles
 
-- 사진이 가장 중요하다.
-- UI는 사진을 방해하지 않는다.
-- 모든 UI는 Token 기반으로 제작한다.
-- 접근성은 기본 기능이다.
-- 일관성은 새로운 기능보다 우선한다.
+프로젝트 디자인 원칙은 ref_02_design-principles.md를 참고한다.
 
 ---
 
