@@ -13,10 +13,20 @@
    App Shell
    ========================================================== */
 
+body {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
 .l-app {
   display: grid;
   grid-template-columns: 280px 1fr;
-  min-height: 100vh;
+
+  flex: 1;
+  min-height: 0;
 
   background: var(--surface-base);
 }
