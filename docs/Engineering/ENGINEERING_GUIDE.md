@@ -25,6 +25,16 @@ Prefer obvious solutions.
 
 ---
 
+# Technology Stack
+
+Palette Atelier is built with vanilla HTML, CSS, and JavaScript.
+
+No build step is used. `index.html` must run directly in the browser.
+
+Frameworks such as React, Vue, Svelte, and TypeScript are not used.
+
+---
+
 # Folder Structure
 
 ```
