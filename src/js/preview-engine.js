@@ -12,6 +12,35 @@ const previewEngine = {
 
   colorSteps: [50, 100, 200, 300, 400, 500, 600, 700, 800, 900],
 
+  semanticGroups: [
+    { label: 'Surface', tokens: ['--surface-base', '--surface-subtle', '--surface-elevated'] },
+    { label: 'Text', tokens: ['--text-primary', '--text-secondary', '--text-tertiary', '--text-inverse'] },
+    { label: 'Border', tokens: ['--border-default', '--border-strong'] },
+    { label: 'Primary', tokens: ['--primary-base', '--primary-strong', '--primary-soft'] },
+    { label: 'Accent', tokens: ['--accent-base', '--accent-soft'] },
+    { label: 'Status', tokens: ['--status-success', '--status-warning', '--status-danger', '--status-info'] },
+  ],
+
+  buildSwatch(token, labelText) {
+    const swatch = document.createElement('div');
+    swatch.className = 'p-swatch';
+
+    const color = document.createElement('button');
+    color.type = 'button';
+    color.className = 'p-swatch__color';
+    color.style.setProperty('--swatch-color', `var(${token})`);
+    color.setAttribute('aria-label', token);
+    color.addEventListener('click', () => renderer.inspectToken(token));
+    swatch.appendChild(color);
+
+    const label = document.createElement('span');
+    label.className = 'p-swatch__label';
+    label.textContent = labelText;
+    swatch.appendChild(label);
+
+    return swatch;
+  },
+
   renderPrimitiveTab() {
     const panel = document.querySelector('[data-panel="primitive"]');
 
@@ -37,24 +66,39 @@ const previewEngine = {
 
       this.colorSteps.forEach((step) => {
         const token = `${group.prefix}-${step}`;
+        palette.appendChild(this.buildSwatch(token, step));
+      });
 
-        const swatch = document.createElement('div');
-        swatch.className = 'p-swatch';
+      section.appendChild(palette);
+      panel.appendChild(section);
+    });
+  },
 
-        const color = document.createElement('button');
-        color.type = 'button';
-        color.className = 'p-swatch__color';
-        color.style.setProperty('--swatch-color', `var(${token})`);
-        color.setAttribute('aria-label', token);
-        color.addEventListener('click', () => renderer.inspectToken(token));
-        swatch.appendChild(color);
+  renderSemanticTab() {
+    const panel = document.querySelector('[data-panel="semantic"]');
 
-        const label = document.createElement('span');
-        label.className = 'p-swatch__label';
-        label.textContent = step;
-        swatch.appendChild(label);
+    if (!panel) return;
 
-        palette.appendChild(swatch);
+    panel.innerHTML = '';
+
+    const description = document.createElement('p');
+    description.className = 'p-showcase__description';
+    description.textContent = 'Semantic tokens used to express UI meaning across components.';
+    panel.appendChild(description);
+
+    this.semanticGroups.forEach((group) => {
+      const section = document.createElement('div');
+      section.className = 'p-section';
+
+      const title = document.createElement('h3');
+      title.textContent = group.label;
+      section.appendChild(title);
+
+      const palette = document.createElement('div');
+      palette.className = 'p-palette';
+
+      group.tokens.forEach((token) => {
+        palette.appendChild(this.buildSwatch(token, token.replace('--', '')));
       });
 
       section.appendChild(palette);

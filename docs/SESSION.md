@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(a11y): wire focus ring toggle
+feat(preview): render Semantic tab
 
 Status
 
@@ -41,7 +41,7 @@ Status
 
 # Current
 
-feat(preview): render Semantic tab
+TBD
 
 Status
 

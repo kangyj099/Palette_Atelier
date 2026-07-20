@@ -4,3 +4,4 @@ paletteEngine.initTheme();
 paletteEngine.initContrast();
 paletteEngine.initFocusRing();
 previewEngine.renderPrimitiveTab();
+previewEngine.renderSemanticTab();
