@@ -98,6 +98,11 @@ js/
 - preview-engine.js
 - palette-engine.js
 - utils.js
+- theme-engine.js (empty, unused)
+- rule-engine.js (empty, unused)
+- export-engine.js (empty, unused)
+
+assets/ (empty, unused)
 
 index.html
 
