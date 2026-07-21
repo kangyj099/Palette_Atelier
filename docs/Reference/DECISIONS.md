@@ -252,14 +252,9 @@ Not merely display values.
 
 ---
 
-### Future Responsibilities
+### Scope Reference
 
-- Token Details
-- Usage
-- Dependencies
-- Accessibility
-- Rule Violations
-- Suggestions
+See Core/ARCHITECTURE.md for the current feature list.
 
 ---
 

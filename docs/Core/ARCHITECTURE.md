@@ -408,11 +408,12 @@ The Inspector is treated as a debugging system.
 
 Responsibilities
 
-- Token Information
+- Token Details
 - Usage
-- Contrast
-- Rule Results
 - Dependencies
+- Contrast
+- Accessibility
+- Rule Results
 - Suggestions
 
 The Inspector never owns design data.
