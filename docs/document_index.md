@@ -126,6 +126,12 @@ Contains ideas that are intentionally postponed.
 Nothing inside this document should be implemented
 without moving it into the roadmap first.
 
+This document is a brainstorming space, not a single
+source of truth. It is exempt from the "avoid duplicate
+information" rule below — its content may legitimately
+overlap with ROADMAP.md, VISION.md, ARCHITECTURE.md, or
+any other owning document.
+
 ---
 
 ## Product/CHANGELOG.md
@@ -241,6 +247,11 @@ Avoid duplicate information.
 
 Prefer linking to the correct document
 instead of repeating content.
+
+Exception: Product/IDEA_BACKLOG.md is a brainstorming
+space, not a single source of truth. Overlap between it
+and other documents is expected and does not violate this
+rule. See its entry above.
 
 ---
 

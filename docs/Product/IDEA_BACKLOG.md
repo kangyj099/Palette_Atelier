@@ -8,6 +8,32 @@
 
 ---
 
+# Nature of This Document
+
+IDEA_BACKLOG.md is a brainstorming space.
+
+Not a single source of truth.
+
+Ideas are drafted, expanded, and reconsidered here before they mature enough to belong to an owning document.
+
+Examples
+
+- ROADMAP.md
+- VISION.md
+- ARCHITECTURE.md
+
+Overlap with those documents — or any other document — is expected.
+
+It is not a documentation defect.
+
+This document is exempt from the "avoid duplicate information" rule in document_index.md.
+
+An idea entering another document does not require removing it from here.
+
+It may stay for future content work, expansion planning, interim review, or brainstorming.
+
+---
+
 # Guiding Principle
 
 A good idea is not automatically the next feature.
