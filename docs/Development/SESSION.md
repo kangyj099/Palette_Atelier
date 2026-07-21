@@ -135,3 +135,17 @@ _None._
 # Ready for Next Commit
 
 ✅ Yes
+
+---
+
+# Decision Reminder
+
+Current Release
+
+v1.0 MVP
+
+Current Priority
+
+Complete MVP before expanding scope.
+
+Future ideas belong in IDEA_BACKLOG.md.
