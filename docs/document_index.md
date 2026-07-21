@@ -12,13 +12,13 @@
 New contributors and AI assistants should read the documentation
 in the following order.
 
-1. Core/ReadMe.md
-2. Product/VISION.md
+1. Core/README.md
+2. Core/VISION.md
 3. Core/PROJECT_RULES.md
-4. Core/ref_00_architecture.md
-5. Engineering/ENGINEERING_GUIDE.md
+4. Core/ARCHITECTURE.md
+5. Core/ENGINEERING_GUIDE.md
 6. Product/ROADMAP.md
-7. Core/SESSION.md
+7. Development/SESSION.md
 
 Reference documents may be consulted as needed.
 
@@ -26,7 +26,7 @@ Reference documents may be consulted as needed.
 
 # Core Documents
 
-## Core/ReadMe.md
+## Core/README.md
 
 Project overview.
 
@@ -41,7 +41,7 @@ Contains
 
 ---
 
-## Product/VISION.md
+## Core/VISION.md
 
 Defines why Palette Atelier exists.
 
@@ -72,7 +72,7 @@ Contains
 
 ---
 
-## Core/ref_00_architecture.md
+## Core/ARCHITECTURE.md
 
 Explains project structure.
 
@@ -87,7 +87,7 @@ Contains
 
 ---
 
-## Engineering/ENGINEERING_GUIDE.md
+## Core/ENGINEERING_GUIDE.md
 
 Defines coding conventions.
 
@@ -128,7 +128,7 @@ without moving it into the roadmap first.
 
 ---
 
-## Engineering/ChangeLog.md
+## Product/CHANGELOG.md
 
 Release history.
 
@@ -138,7 +138,7 @@ Contains only completed work.
 
 # Development Documents
 
-## Core/SESSION.md
+## Development/SESSION.md
 
 Current working context.
 
@@ -153,7 +153,7 @@ Contains
 
 ---
 
-## Engineering/Testing.md
+## Development/TESTING.md
 
 Testing strategy.
 
@@ -165,7 +165,7 @@ Contains
 
 ---
 
-## Engineering/ReleaseChecklist.md
+## Development/RELEASE_CHECKLIST.md
 
 Pre-release verification.
 
@@ -173,7 +173,7 @@ Used before publishing a release.
 
 ---
 
-## Community/Contributing.md
+## Development/CONTRIBUTING.md
 
 Contribution guide.
 
@@ -183,7 +183,7 @@ Used by external contributors.
 
 # Reference Documents
 
-## Glossary — Product/ref_01_glossary.md
+## Glossary — Reference/GLOSSARY.md
 
 Official terminology.
 
@@ -191,7 +191,7 @@ Always reuse existing terms before introducing new ones.
 
 ---
 
-## Design Principles — Product/ref_02_design-principles.md
+## Design Principles — Reference/DESIGN_PRINCIPLES.md
 
 Design philosophy.
 
@@ -199,7 +199,7 @@ Defines visual consistency.
 
 ---
 
-## ADR — Core/DECISIONS.md
+## ADR — Reference/DECISIONS.md
 
 Architecture Decision Records.
 
@@ -215,17 +215,17 @@ Each concern has exactly one owner.
 
 | Topic | Source |
 |--------|--------|
-| Product Vision | Product/VISION.md |
+| Product Vision | Core/VISION.md |
 | Development Rules | Core/PROJECT_RULES.md |
-| Architecture | Core/ref_00_architecture.md |
-| Coding Style | Engineering/ENGINEERING_GUIDE.md |
+| Architecture | Core/ARCHITECTURE.md |
+| Coding Style | Core/ENGINEERING_GUIDE.md |
 | Product Planning | Product/ROADMAP.md |
-| Current Session | Core/SESSION.md |
-| Release History | Engineering/ChangeLog.md |
+| Current Session | Development/SESSION.md |
+| Release History | Product/CHANGELOG.md |
 | Future Ideas | Product/IDEA_BACKLOG.md |
-| Architectural Decisions | Core/DECISIONS.md |
-| Design Principles | Product/ref_02_design-principles.md |
-| Terminology | Product/ref_01_glossary.md |
+| Architectural Decisions | Reference/DECISIONS.md |
+| Design Principles | Reference/DESIGN_PRINCIPLES.md |
+| Terminology | Reference/GLOSSARY.md |
 
 ---
 

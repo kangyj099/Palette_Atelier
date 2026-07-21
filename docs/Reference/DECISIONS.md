@@ -338,19 +338,19 @@ Colors
 
 Current Status
 
-→ SESSION.md
+→ Development/SESSION.md
 
 Roadmap
 
-→ ROADMAP.md
+→ Product/ROADMAP.md
 
 Ideas
 
-→ IDEA_BACKLOG.md
+→ Product/IDEA_BACKLOG.md
 
 Architecture
 
-→ ARCHITECTURE.md
+→ Core/ARCHITECTURE.md
 
 ---
 

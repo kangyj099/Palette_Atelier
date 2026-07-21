@@ -8,10 +8,10 @@ Thank you for contributing to Palette Atelier!
 
 Please read
 
-- README.md
-- PROJECT_RULES.md
-- ARCHITECTURE.md
-- ENGINEERING_GUIDE.md
+- Core/README.md
+- Core/PROJECT_RULES.md
+- Core/ARCHITECTURE.md
+- Core/ENGINEERING_GUIDE.md
 
 ---
 

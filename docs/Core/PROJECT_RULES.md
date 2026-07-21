@@ -152,7 +152,7 @@ Application State
 
 Architecture
 
-→ ARCHITECTURE.md
+→ Core/ARCHITECTURE.md
 
 ---
 
@@ -232,7 +232,7 @@ The Inspector exists to explain the design system, not merely display data.
 
 Validation should always be deterministic. Avoid subjective scoring.
 
-Detailed Inspector and Rule Engine responsibilities are owned by ref_00_architecture.md.
+Detailed Inspector and Rule Engine responsibilities are owned by Core/ARCHITECTURE.md.
 
 ---
 

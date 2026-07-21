@@ -10,7 +10,7 @@
 
 # 1. Product Vision
 
-Palette Atelier의 Product Vision은 VISION.md를 참고한다.
+Palette Atelier의 Product Vision은 Core/VISION.md를 참고한다.
 
 ---
 
@@ -245,7 +245,7 @@ Motion은 정보를 보조하는 역할이다.
 
 # 10. Long-term Goal
 
-Palette Atelier의 장기 목표는 VISION.md를 참고한다.
+Palette Atelier의 장기 목표는 Core/VISION.md를 참고한다.
 
 ---
 

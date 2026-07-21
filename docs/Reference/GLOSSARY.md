@@ -16,7 +16,7 @@
 OOTD(Outfit Of The Day) 앱 개발 과정에서 출발했으며,
 현재는 특정 앱에 종속되지 않는 독립적인 디자인 시스템 도구로 발전하고 있다.
 
-제품 비전에 대한 자세한 내용은 VISION.md를 참고한다.
+제품 비전에 대한 자세한 내용은 Core/VISION.md를 참고한다.
 
 ---
 
@@ -317,7 +317,7 @@ previewRenderer
 
 # Project Principles
 
-프로젝트 디자인 원칙은 ref_02_design-principles.md를 참고한다.
+프로젝트 디자인 원칙은 DESIGN_PRINCIPLES.md를 참고한다.
 
 ---
 

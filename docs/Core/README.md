@@ -178,13 +178,13 @@ Project documentation is organized separately.
 
 | Document | Purpose |
 |----------|----------|
-| Core/SESSION.md | Current development status |
+| Development/SESSION.md | Current development status |
 | Product/ROADMAP.md | Development roadmap |
 | Core/PROJECT_RULES.md | Development rules |
-| Product/VISION.md | Product vision |
-| Core/DECISIONS.md | Important architectural decisions |
+| Core/VISION.md | Product vision |
+| Reference/DECISIONS.md | Important architectural decisions |
 | Product/IDEA_BACKLOG.md | Future ideas |
-| Core/ref_00_architecture.md | System architecture |
+| Core/ARCHITECTURE.md | System architecture |
 
 See `document_index.md` for the complete documentation map.
 
