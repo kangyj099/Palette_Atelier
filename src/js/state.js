@@ -1,6 +1,6 @@
 const state = {
   currentPalette: 'palette-1',
-  currentTheme: 'light',
+  currentMode: 'light',
   currentTab: 'components',
   selectedToken: null,
   accessibility: {

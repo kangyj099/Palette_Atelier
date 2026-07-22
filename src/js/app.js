@@ -1,6 +1,6 @@
 renderer.initTabs();
 paletteEngine.init();
-paletteEngine.initTheme();
+paletteEngine.initMode();
 paletteEngine.initContrast();
 paletteEngine.initFocusRing();
 previewEngine.renderPrimitiveTab();

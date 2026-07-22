@@ -21,26 +21,26 @@ const paletteEngine = {
     document.documentElement.dataset.palette = palette;
   },
 
-  initTheme() {
-    const radios = document.querySelectorAll('input[name="theme"]');
-    const checked = document.querySelector('input[name="theme"]:checked');
+  initMode() {
+    const radios = document.querySelectorAll('input[name="mode"]');
+    const checked = document.querySelector('input[name="mode"]:checked');
 
     if (checked) {
-      this.setTheme(checked.value);
+      this.setMode(checked.value);
     }
 
     radios.forEach((radio) => {
       radio.addEventListener('change', () => {
         if (radio.checked) {
-          this.setTheme(radio.value);
+          this.setMode(radio.value);
         }
       });
     });
   },
 
-  setTheme(theme) {
-    state.currentTheme = theme;
-    document.documentElement.dataset.theme = theme;
+  setMode(mode) {
+    state.currentMode = mode;
+    document.documentElement.dataset.mode = mode;
   },
 
   initContrast() {

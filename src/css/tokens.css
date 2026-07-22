@@ -312,15 +312,15 @@
 }
 
 /* ==========================================================
-   Theme Variants
+   Mode Variants
    ------------------------------------------------------------
    Light is the default (defined in the Semantic Tokens block
    below). Dark only remaps Surface / Text / Border — brand
    (Primary/Secondary/Accent) and status colors stay identical
-   across themes so information hierarchy doesn't shift.
+   across modes so information hierarchy doesn't shift.
    ========================================================== */
 
-:root[data-theme="dark"] {
+:root[data-mode="dark"] {
   --surface-base: var(--color-gray-900);
   --surface-subtle: var(--color-gray-700);
   --surface-elevated: var(--color-gray-800);
@@ -341,7 +341,7 @@
    ------------------------------------------------------------
    High Contrast strengthens secondary/tertiary text and
    default borders using the existing semantic tokens, so it
-   composes with any Palette / Theme combination.
+   composes with any Palette / Mode combination.
    ========================================================== */
 
 :root[data-contrast="high"] {
