@@ -1,5 +1,3 @@
 # Roadmap
 
-- alpha.1 Project Skeleton
-- alpha.2 Design Foundation
-- alpha.3 Theme Engine
+This file is superseded. See `docs/Product/ROADMAP.md` for the current, maintained roadmap.

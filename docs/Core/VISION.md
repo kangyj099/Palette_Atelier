@@ -52,7 +52,9 @@ Users should learn from every interaction.
 
 # Product Philosophy
 
-Palette Atelier follows four principles.
+Palette Atelier follows four guiding pillars.
+
+> These four pillars describe the product's *philosophy* (why it behaves the way it does). They are a distinct, smaller set from the six-capability tagline (Build, Preview, Validate, Compare, Document, Export) used elsewhere to describe feature *scope*. Do not merge or reconcile the two lists — they answer different questions.
 
 ---
 

@@ -20,6 +20,18 @@ OOTD(Outfit Of The Day) 앱 개발 과정에서 출발했으며,
 
 ---
 
+## Design System Workbench
+
+Palette Atelier의 제품 정체성.
+
+색상 관리 도구를 넘어, 디자인 시스템을 만들고(Build), 미리보고(Preview), 검증하고(Validate), 비교하고(Compare), 문서화하고(Document), 내보내는(Export) 전 과정을 다루는 작업 환경.
+
+단순 팔레트 생성기나 CSS 플레이그라운드가 아니다.
+
+자세한 근거는 Reference/DECISIONS.md D-006을 참고한다.
+
+---
+
 # Color
 
 ## Palette
@@ -39,11 +51,28 @@ Palette는 여러 Color Token으로 구성된다.
 
 ## Theme
 
-현재 활성화된 Palette.
+현재 적용 중인 Palette와 Mode의 조합.
 
-애플리케이션은 항상 하나의 Theme만 가진다.
+색상 자체를 가리킬 때는 Palette, 밝기(명암) 축을 가리킬 때는 Mode라고 지칭한다. 둘을 섞어 쓰지 않는다.
 
-Theme가 변경되면 모든 UI는 자동으로 갱신된다.
+애플리케이션은 항상 하나의 Theme(= 하나의 Palette + 하나의 Mode)만 가진다.
+
+Theme가 변경되면(Palette가 바뀌거나 Mode가 바뀌거나) 모든 UI는 자동으로 갱신된다.
+
+자세한 근거는 Reference/DECISIONS.md D-015를 참고한다.
+
+---
+
+## Mode
+
+Theme를 구성하는 밝기(명암) 축. Palette와 독립적으로 전환된다.
+
+예)
+
+- Light
+- Dark
+
+동일한 Palette라도 Mode에 따라 다르게 렌더링될 수 있다.
 
 ---
 
@@ -97,6 +126,14 @@ Semantic Token은 Color Token을 참조한다.
 - Chip
 - Input
 - Dialog
+
+---
+
+## Workspace
+
+사용자가 Palette를 만들고, 미리보고, 검증하는 상호작용 환경 전체.
+
+Preview, Inspector 등 개별 화면을 담는 상위 개념이다.
 
 ---
 
@@ -228,6 +265,26 @@ Palette Atelier는 WCAG AA 이상을 기본 목표로 한다.
 
 ---
 
+# Validation
+
+## Rule Engine
+
+측정 가능한 규칙으로 디자인 시스템을 평가하는 시스템.
+
+예)
+
+- Contrast
+- Naming
+- Typography
+- Spacing
+- Consistency
+
+주관적 AI 평가가 아닌, 결정론적(deterministic) 규칙으로 동작한다.
+
+자세한 근거는 Reference/DECISIONS.md D-003, D-004를 참고한다.
+
+---
+
 # Development
 
 ## Source of Truth
@@ -317,10 +374,8 @@ previewRenderer
 
 # Project Principles
 
-프로젝트 디자인 원칙은 DESIGN_PRINCIPLES.md를 참고한다.
+프로젝트 디자인 원칙은 Reference/DESIGN_PRINCIPLES.md를 참고한다.
 
 ---
 
-Last Updated
-
-v1.0.0-alpha.1
+This is a living document — reviewed and updated as terminology evolves, not tied to a release version.

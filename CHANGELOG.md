@@ -1,4 +1,3 @@
 # Changelog
 
-## v1.0.0-alpha.1
-- Initial project skeleton
+This file is superseded. See `docs/Product/CHANGELOG.md` for the current, maintained changelog.

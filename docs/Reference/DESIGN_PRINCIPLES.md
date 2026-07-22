@@ -261,6 +261,4 @@ Palette Atelier의 장기 목표는 Core/VISION.md를 참고한다.
 
 ---
 
-Last Updated
-
-v1.0.0-alpha.1
+This is a living document — reviewed and updated as design principles evolve, not tied to a release version.

@@ -29,7 +29,7 @@ Good ideas are valuable.
 
 Finished software is more valuable.
 
-Future ideas belong in **IDEA_BACKLOG.md** until they become priorities.
+Future ideas belong in **Product/IDEA_BACKLOG.md** until they become priorities.
 
 ---
 
@@ -85,7 +85,7 @@ Avoid creating duplicate documentation.
 
 ---
 
-## SESSION.md
+## Development/SESSION.md
 
 Update after every completed logical change.
 
@@ -98,7 +98,7 @@ Always maintain:
 
 ---
 
-## ROADMAP.md
+## Product/ROADMAP.md
 
 Update only when project priorities change.
 
@@ -106,7 +106,7 @@ Do not record implementation history.
 
 ---
 
-## IDEA_BACKLOG.md
+## Product/IDEA_BACKLOG.md
 
 Store valuable ideas that are intentionally postponed.
 
@@ -114,7 +114,7 @@ Do not mix future ideas into the MVP roadmap.
 
 ---
 
-## DECISIONS.md
+## Reference/DECISIONS.md
 
 Every important architectural or product decision should be recorded.
 
@@ -138,50 +138,26 @@ Avoid multi-purpose modules.
 
 ## One Source of Truth
 
-Every piece of information has exactly one owner.
+Every piece of information has exactly one owner (Colors → tokens.css, Application State → state.js, Architecture → Core/ARCHITECTURE.md).
 
-Examples
-
-Colors
-
-→ tokens.css
-
-Application State
-
-→ state.js
-
-Architecture
-
-→ Core/ARCHITECTURE.md
+Full definition: Core/ARCHITECTURE.md § One Source of Truth. Decision rationale: Reference/DECISIONS.md D-010.
 
 ---
 
 ## Read, Don't Duplicate
 
-Reuse existing data.
+Modules consume data.
 
-Never redefine it.
+They never redefine it.
 
 ---
 
 ## Prefer Extension
 
-Add modules.
+Add modules instead of growing existing ones (e.g. `+ rule-engine.js` instead of a 5,000-line `renderer.js`).
 
-Avoid increasing coupling.
+Full principle: Core/ARCHITECTURE.md § Scalability.
 
-Preferred
-
-```
-+ rule-engine.js
-```
-
-Avoid
-
-```
-renderer.js
-(5000+ lines)
-```
 ---
 
 # Refactoring Rule
@@ -214,7 +190,7 @@ CSS owns the design system.
 
 JavaScript controls behavior, not visual design.
 
-Detailed CSS layering, token usage, and JavaScript architecture rules are owned by ENGINEERING_GUIDE.md.
+Detailed CSS layering, token usage, and JavaScript architecture rules are owned by Core/ENGINEERING_GUIDE.md.
 
 ---
 

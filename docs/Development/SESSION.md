@@ -51,27 +51,72 @@ Status
 
 # Next
 
-TBD
+feat(inspector): add Copy + Toast to complete Phase 1 (Viewer) scope
+
+Priority
+
+🔴 Fast-track
+
+Inspector Phase 1 (Viewer) = Token, HEX, Contrast, Used By, Copy, Toast.
+Token/HEX/Contrast/Used By are done; Copy (clipboard) and Toast
+(confirmation) are the only two pieces left before Phase 1 is complete.
 
 ---
 
 # MVP Progress
 
+> Item names from "Design Tokens" onward mirror Product/ROADMAP.md's Phase 1 list exactly. This is the single place completion state is tracked — ROADMAP.md holds the plan only.
+>
+> "Process" below is pre-Roadmap setup work and has no Product/ROADMAP.md counterpart.
+
+## Process
+
 - [x] Project Skeleton
 - [x] Project Documents
 - [x] Design Principles
+
+## Design Tokens
+
 - [x] Primitive Tokens
 - [x] Semantic Tokens
+- [x] Component Tokens
+
+## Foundation
+
 - [x] Base Styles
-- [x] Layout
+- [x] Layout System
 - [x] Components
-- [x] Preview Components
 - [x] Utilities
-- [x] Dynamic Palette
-- [x] Theme Switch
-- [ ] Accessibility Preview
+
+## Preview
+
+- [x] Primitive Preview
+- [x] Semantic Preview
+- [x] Component Showcase
+- [x] Dynamic Palette Rendering
+- [x] Mode Switching
 - [ ] Phone Preview
-- [ ] Export
+- [ ] Accessibility Preview
+
+## Inspector
+
+- [x] Token Inspector
+- [ ] Sticky Inspector Improvements
+- [ ] Component Information
+- [ ] Usage Information
+
+## Palette Management
+
+- [ ] Add Palette
+- [ ] Edit Palette
+- [ ] Delete Palette
+- [ ] Import Palette
+- [ ] Export Palette
+
+## Export
+
+- [ ] CSS Export
+- [ ] JSON Export
 
 ---
 
@@ -98,7 +143,7 @@ js/
 - preview-engine.js
 - palette-engine.js
 - utils.js
-- theme-engine.js (empty, unused)
+- mode-engine.js (empty, unused)
 - rule-engine.js (empty, unused)
 - export-engine.js (empty, unused)
 
@@ -129,8 +174,6 @@ _None._
 # Parking Lot
 
 - Multi Theme
-- Dark Mode
-- Token Inspector
 - Export Tokens
 - Component Search
 - Design Audit
@@ -153,4 +196,4 @@ Current Priority
 
 Complete MVP before expanding scope.
 
-Future ideas belong in IDEA_BACKLOG.md.
+Future ideas belong in Product/IDEA_BACKLOG.md.

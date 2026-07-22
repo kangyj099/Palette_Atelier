@@ -41,9 +41,9 @@
 
 # Documentation
 
-- [ ] SESSION updated
-- [ ] CHANGELOG updated
-- [ ] ROADMAP reviewed
+- [ ] Development/SESSION.md updated
+- [ ] Product/CHANGELOG.md updated
+- [ ] Product/ROADMAP.md reviewed
 
 ---
 

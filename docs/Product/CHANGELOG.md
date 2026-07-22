@@ -47,7 +47,7 @@ TBD
 - Component Library
 - Preview Workspace
 - Dynamic Palette Rendering
-- Theme Switching
+- Mode Switching
 - Footer Inspector
 - Documentation System
 
@@ -75,15 +75,21 @@ TBD
 
 Added
 
-- README
-- SESSION
-- ROADMAP
-- IDEA_BACKLOG
-- ARCHITECTURE
-- DECISIONS
-- PROJECT_RULES
-- VISION
-- ENGINEERING_GUIDE
+- Core/README.md
+- Development/SESSION.md
+- Product/ROADMAP.md
+- Product/IDEA_BACKLOG.md
+- Core/ARCHITECTURE.md
+- Reference/DECISIONS.md
+- Core/PROJECT_RULES.md
+- Core/VISION.md
+- Core/ENGINEERING_GUIDE.md
+- Development/CONTRIBUTING.md
+- Development/TESTING.md
+- Development/RELEASE_CHECKLIST.md
+- Reference/GLOSSARY.md
+- Reference/DESIGN_PRINCIPLES.md
+- document_index.md
 
 ---
 

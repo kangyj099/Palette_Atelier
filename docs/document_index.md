@@ -253,6 +253,19 @@ space, not a single source of truth. Overlap between it
 and other documents is expected and does not violate this
 rule. See its entry above.
 
+Exception — Stable Principle Exception: cross-cutting
+principles that rarely change (e.g. One Source of Truth,
+Prefer Extension) may keep a short local restatement
+(1-2 lines, no rationale) in the documents where they are
+operationally relevant, so a reader doesn't have to leave
+the document for the gist. The full definition, examples,
+and rationale still live in exactly one place — normally
+the relevant Reference/DECISIONS.md entry or
+Core/ARCHITECTURE.md. Only that one place may be edited
+when the principle's wording changes; local restatements
+should be re-copied from it verbatim, not independently
+rephrased.
+
 ---
 
 # Guiding Principle

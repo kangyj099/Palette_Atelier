@@ -325,33 +325,15 @@ Every piece of information should have exactly one authoritative location.
 
 ---
 
-### Examples
+### Why
 
-Colors
-
-→ tokens.css
-
-Current Status
-
-→ Development/SESSION.md
-
-Roadmap
-
-→ Product/ROADMAP.md
-
-Ideas
-
-→ Product/IDEA_BACKLOG.md
-
-Architecture
-
-→ Core/ARCHITECTURE.md
+Duplicate documentation eventually becomes inconsistent. This applies to code ownership and to documentation ownership alike — including the wording of this principle itself.
 
 ---
 
-### Why
+### Scope Reference
 
-Duplicate documentation eventually becomes inconsistent.
+See Core/ARCHITECTURE.md § One Source of Truth for the current list of owned data and documents. Other documents (e.g. Core/PROJECT_RULES.md) may keep a short local restatement for readability, per document_index.md's "Stable Principle Exception," but the owned-data list itself is maintained only in Core/ARCHITECTURE.md.
 
 ---
 
@@ -474,6 +456,62 @@ Internal tooling should be developed with public release quality.
 Good internal tools often become valuable standalone products.
 
 Palette Atelier follows this philosophy.
+
+---
+
+# D-015
+
+## Theme = Palette + Mode
+
+Status
+
+✅ Accepted
+
+---
+
+### Decision
+
+A Theme is composed of two independent axes.
+
+Palette
+
+→ the color collection (e.g. Linen Serenity, Morning Sky).
+
+Mode
+
+→ the brightness axis (Light / Dark).
+
+"Theme" always refers to the combination of exactly one Palette and one Mode. It is never used as a synonym for either alone.
+
+---
+
+### Why
+
+Glossary previously defined Theme as "the single active Palette," while the Roadmap's Multi Theme phase used Theme to mean Light/Dark variants. This let the same word mean two different things depending on which document you read.
+
+---
+
+### Benefits
+
+- Palette (what color) and Mode (how bright) can evolve and be switched independently
+- Vocabulary matches the actual Phase 3 feature: multiple Palettes combined with a Light/Dark toggle
+- Removes the Glossary ↔ Roadmap contradiction
+
+---
+
+### Rejected Alternative
+
+Keep "Theme" meaning only "active Palette" and introduce a separate undefined term for Light/Dark.
+
+Reason:
+
+The Roadmap already uses "Theme" for Light/Dark variants (Multi Theme phase); redefining Theme to include Mode matches existing usage instead of fighting it.
+
+---
+
+### Scope Reference
+
+See Core/ARCHITECTURE.md § Theme System for the operating definition, and Reference/GLOSSARY.md for terminology.
 
 ---
 

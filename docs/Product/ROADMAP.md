@@ -7,17 +7,7 @@
 
 # Current Status
 
-Version
-
-v1.0.0-alpha
-
-Status
-
-🟢 Active Development
-
-Current Milestone
-
-Interactive Design System Workbench
+For current version, milestone, and progress, see Development/SESSION.md — this document tracks planning only, not implementation status.
 
 ---
 
@@ -37,58 +27,60 @@ Goal:
 
 Deliver a complete and usable Design System Workbench.
 
+> Completion state for every item below is tracked in Development/SESSION.md § MVP Progress, not here.
+
 ## Design Tokens
 
-- [x] Primitive Tokens
-- [x] Semantic Tokens
-- [x] Component Tokens
+- Primitive Tokens
+- Semantic Tokens
+- Component Tokens
 
 ---
 
 ## Foundation
 
-- [x] Base Styles
-- [x] Layout System
-- [x] Components
-- [x] Utilities
+- Base Styles
+- Layout System
+- Components
+- Utilities
 
 ---
 
 ## Preview
 
-- [x] Primitive Preview
-- [x] Semantic Preview
-- [x] Component Showcase
-- [x] Dynamic Palette Rendering
-- [x] Theme Switching
-- [ ] Phone Preview
-- [ ] Accessibility Preview
+- Primitive Preview
+- Semantic Preview
+- Component Showcase
+- Dynamic Palette Rendering
+- Mode Switching
+- Phone Preview
+- Accessibility Preview
 
 ---
 
 ## Inspector
 
-- [x] Token Inspector
-- [ ] Sticky Inspector Improvements
-- [ ] Component Information
-- [ ] Usage Information
+- Token Inspector
+- Sticky Inspector Improvements
+- Component Information
+- Usage Information
 
 ---
 
 ## Palette Management
 
-- [ ] Add Palette
-- [ ] Edit Palette
-- [ ] Delete Palette
-- [ ] Import Palette
-- [ ] Export Palette
+- Add Palette
+- Edit Palette
+- Delete Palette
+- Import Palette
+- Export Palette
 
 ---
 
 ## Export
 
-- [ ] CSS Export
-- [ ] JSON Export
+- CSS Export
+- JSON Export
 
 ---
 
@@ -231,12 +223,12 @@ Examples:
 
 ## Multi Theme
 
+A Theme is a Palette + Mode combination (see Reference/GLOSSARY.md).
+
 Support:
 
-- Light
-- Dark
-- Brand Themes
-- Seasonal Themes
+- Mode: Light / Dark
+- Additional Palettes: Brand, Seasonal, etc.
 
 ---
 

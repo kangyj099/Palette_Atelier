@@ -5,8 +5,8 @@
 > This document defines how code should be written,
 > organized, and maintained.
 >
-> PROJECT_RULES explains **how we work**.
-> ENGINEERING_GUIDE explains **how we write code**.
+> Core/PROJECT_RULES.md explains **how we work**.
+> Core/ENGINEERING_GUIDE.md explains **how we write code**.
 
 ---
 
@@ -233,15 +233,15 @@ Each engine owns exactly one feature.
 Examples
 
 ```
-palette-engine.js
+palette-engine.js   (current)
 
-preview-engine.js
+preview-engine.js   (current)
 
-theme-engine.js
+mode-engine.js       (Future)
 
-rule-engine.js
+rule-engine.js       (Future)
 
-export-engine.js
+export-engine.js     (Future)
 ```
 
 ---
@@ -409,13 +409,9 @@ the implementation is incomplete.
 
 # Refactoring
 
-Refactor only when it improves
-
-- readability
-- maintainability
-- scalability
-
 Separate refactoring from feature work whenever possible.
+
+For when refactoring is warranted, see Core/PROJECT_RULES.md § Refactoring Rule.
 
 ---
 
@@ -429,7 +425,7 @@ Before merging, verify
 - Accessibility preserved
 - Responsive behavior maintained
 - Documentation updated
-- SESSION.md updated if applicable
+- Development/SESSION.md updated if applicable
 
 ---
 

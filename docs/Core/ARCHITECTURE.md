@@ -44,25 +44,27 @@ Export
 
 ## One Source of Truth
 
-Every piece of data has exactly one owner.
+Every piece of information has exactly one authoritative location. Modules and documents consume data from that location — they never redefine it.
 
-Example
+Examples
 
-Colors
+Colors → tokens.css
 
-→ tokens.css
+State → state.js
 
-State
+Preview → renderer.js
 
-→ state.js
+Rules → rule-engine.js
 
-Preview
+Current Status → Development/SESSION.md
 
-→ renderer.js
+Roadmap → Product/ROADMAP.md
 
-Rules
+Ideas → Product/IDEA_BACKLOG.md
 
-→ rule-engine.js
+Architecture → Core/ARCHITECTURE.md
+
+Decision rationale: Reference/DECISIONS.md D-010.
 
 ---
 
@@ -291,7 +293,7 @@ inspector.js
 
 export-engine.js
 
-theme-engine.js
+mode-engine.js
 
 storage.js
 ```
@@ -465,6 +467,20 @@ Recommendation
 ---
 
 # Theme System
+
+A Theme is composed of two independent axes.
+
+Palette
+
+→ the color collection (e.g. Linen Serenity, Morning Sky)
+
+Mode
+
+→ the brightness axis (Light / Dark)
+
+A Theme is exactly one Palette + one Mode. Palette and Mode switch independently — changing one never changes the other.
+
+Terminology reference: Reference/GLOSSARY.md.
 
 Future
 

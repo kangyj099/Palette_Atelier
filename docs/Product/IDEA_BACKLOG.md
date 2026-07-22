@@ -18,9 +18,9 @@ Ideas are drafted, expanded, and reconsidered here before they mature enough to 
 
 Examples
 
-- ROADMAP.md
-- VISION.md
-- ARCHITECTURE.md
+- Product/ROADMAP.md
+- Core/VISION.md
+- Core/ARCHITECTURE.md
 
 Overlap with those documents — or any other document — is expected.
 

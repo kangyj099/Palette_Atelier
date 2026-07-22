@@ -87,7 +87,7 @@ Soft colors should never reduce readability or accessibility.
 - Semantic Token Preview
 - Component Showcase
 - Interactive Inspector
-- Theme Switching
+- Mode Switching
 - Dynamic Palette Rendering
 - Responsive Preview
 - Accessibility Foundation
@@ -96,28 +96,7 @@ Soft colors should never reduce readability or accessibility.
 
 ## Planned Features
 
-### Phase 1
-
-- Accessibility Preview
-- Phone Preview
-- Export
-- Palette Management
-
-### Phase 2
-
-- Interactive Token Editing
-- Component Playground
-- Palette Comparison
-- Rule Engine
-- Design Score
-
-### Phase 3
-
-- Multi Theme Workspace
-- Dependency Graph
-- Design Audit
-- Documentation Generator
-- Plugin System
+See Product/ROADMAP.md for the current plan.
 
 ---
 
@@ -254,13 +233,7 @@ The long-term goal is to provide a deterministic environment where every design 
 
 ## Status
 
-Current Version
-
-**v1 Alpha**
-
-Development Status
-
-🟢 Active Development
+Current version, milestone, and development status: see Development/SESSION.md.
 
 License
 
