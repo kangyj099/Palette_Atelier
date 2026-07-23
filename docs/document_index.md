@@ -215,6 +215,31 @@ Never change major architecture without recording an ADR.
 
 ---
 
+# Working Documents
+
+Works/ holds transient working notes, not authoritative documentation.
+
+Exempt from the "avoid duplicate information" rule below, for the
+same reason as Product/IDEA_BACKLOG.md (see its entry above) — these
+are staging areas, not a source of truth.
+
+## Works/REVIEW_LOG.md
+
+Running log of code review outcomes.
+
+Contains
+
+- Non-essential feedback intentionally left unapplied, with reasoning
+- Out-of-scope improvement/refactor suggestions raised during review,
+  not yet triaged into Product/IDEA_BACKLOG.md or Product/ROADMAP.md
+- Violations of a documented project principle found in AI-produced
+  work, logged whether or not they were fixed immediately
+
+Surfaced to the maintainer at test handoff — see Core/PROJECT_RULES.md
+§ Test Handoff.
+
+---
+
 # Source of Truth
 
 Each concern has exactly one owner.

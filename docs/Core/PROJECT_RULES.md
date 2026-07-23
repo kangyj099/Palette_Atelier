@@ -258,6 +258,32 @@ Five findings per review unless critical issues exist.
 
 ---
 
+## Commit Review Workflow
+
+Every commit gets one lightweight review pass.
+
+The reviewer reviews. It never writes code.
+
+No infinite review loops. No manufactured feedback — if there is nothing worth flagging, say so.
+
+The implementer fixes findings and resubmits until the review passes clean.
+
+Non-essential feedback that is judged and intentionally not applied is not dropped silently — it is logged in Works/REVIEW_LOG.md.
+
+Findings that call for work beyond the current commit's scope (cross-module refactors, architecture changes) are not turned into Development/SESSION.md tasks automatically. They are logged in Works/REVIEW_LOG.md instead, for the maintainer to triage.
+
+Any violation of a documented project principle (this document, Core/ARCHITECTURE.md, Core/ENGINEERING_GUIDE.md, etc.) found in AI-produced work is logged in Works/REVIEW_LOG.md — whether caught by review, self-caught, or pointed out by the maintainer, and whether or not it gets fixed immediately. Fixing it silently, without a log entry, is incomplete.
+
+---
+
+## Test Handoff
+
+When a Development/SESSION.md MVP Progress sub-group (e.g. Inspector, Palette Management) is fully complete, request user testing.
+
+At that point, surface Works/REVIEW_LOG.md's entries for that work so the maintainer can triage deferred feedback and out-of-scope suggestions alongside testing.
+
+---
+
 # Commit Rules
 
 Commit messages should follow Conventional Commits.

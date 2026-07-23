@@ -24,7 +24,7 @@ Testing focuses on
 
 - Semantic tokens resolve correctly
 - No hardcoded values
-- Theme switching updates all tokens
+- Mode switching updates all tokens
 
 ---
 
@@ -80,7 +80,7 @@ Verify
 
 - Palette rendering
 - Component rendering
-- Theme switching
+- Mode switching
 
 ---
 
