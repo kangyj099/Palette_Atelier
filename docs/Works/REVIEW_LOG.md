@@ -33,4 +33,10 @@ Resolution: Fixed in this commit | Left as-is because ...   (Principle Violation
 
 # Log
 
-_No entries yet._
+## [2026-07-23] 73d2376 feat(inspector): add Copy + Toast to complete Phase 1 (Viewer) scope
+
+Type: Out-of-Scope Suggestion
+
+What: Copy/Toast logic (`copyHex`, `showToast`, `initInspectorActions`) was added to `renderer.js` alongside the existing `inspectToken`/`initTabs`. Core/ARCHITECTURE.md's planned "Future" folder structure names a dedicated `inspector.js` module, separate from the renderer.
+
+Why not applied now: The addition is ~20 lines and `inspector.js` doesn't exist yet — splitting it out now would be a premature module for a small feature (PROJECT_RULES § Refactoring Rule / Avoid unnecessary abstractions). Worth revisiting once Inspector picks up more scope (Component Information, Usage Information per Product/ROADMAP.md), at which point `renderer.js` growing further would justify the split called out in ARCHITECTURE.md.
