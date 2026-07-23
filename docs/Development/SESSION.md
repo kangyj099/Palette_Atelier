@@ -31,7 +31,7 @@ Dynamic Preview
 
 # Last Completed
 
-feat(preview): render Semantic tab
+feat(inspector): add Copy + Toast to complete Phase 1 (Viewer) scope
 
 Status
 
@@ -51,15 +51,7 @@ Status
 
 # Next
 
-feat(inspector): add Copy + Toast to complete Phase 1 (Viewer) scope
-
-Priority
-
-🔴 Fast-track
-
-Inspector Phase 1 (Viewer) = Token, HEX, Contrast, Used By, Copy, Toast.
-Token/HEX/Contrast/Used By are done; Copy (clipboard) and Toast
-(confirmation) are the only two pieces left before Phase 1 is complete.
+TBD
 
 ---
 

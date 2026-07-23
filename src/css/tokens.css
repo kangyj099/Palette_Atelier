@@ -557,6 +557,22 @@
 
   /* ==========================================================
      Layer 3 : Component Tokens
+     Toast
+     ========================================================== */
+
+  --toast-bg: var(--surface-elevated);
+  --toast-text: var(--text-primary);
+  --toast-border: var(--border-default);
+  --toast-radius: var(--radius-md);
+  --toast-shadow: var(--shadow-lg);
+  --toast-padding-x: var(--space-4);
+  --toast-padding-y: var(--space-3);
+  --toast-transition-duration: var(--duration-default);
+  --toast-transition-timing: var(--ease-out);
+
+
+  /* ==========================================================
+     Layer 3 : Component Tokens
      Focus
      ========================================================== */
 

@@ -1,4 +1,5 @@
 renderer.initTabs();
+renderer.initInspectorActions();
 paletteEngine.init();
 paletteEngine.initMode();
 paletteEngine.initContrast();

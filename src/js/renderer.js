@@ -32,6 +32,30 @@ const renderer = {
       : '-';
   },
 
+  showToast(message) {
+    const toast = document.querySelector('[data-toast]');
+    document.querySelector('[data-toast-message]').textContent = message;
+    toast.classList.add('c-toast--visible');
+
+    clearTimeout(this.toastTimer);
+    this.toastTimer = setTimeout(() => {
+      toast.classList.remove('c-toast--visible');
+    }, 2000);
+  },
+
+  copyHex() {
+    const hex = document.querySelector('[data-field="hex"]').textContent;
+    navigator.clipboard.writeText(hex)
+      .then(() => this.showToast(`Copied ${hex}`))
+      .catch(() => this.showToast('Copy failed'));
+  },
+
+  initInspectorActions() {
+    document
+      .querySelector('[data-action="copy-hex"]')
+      .addEventListener('click', () => this.copyHex());
+  },
+
   initTabs() {
     const tabs = document.querySelectorAll('.p-tabs__item');
     const panels = document.querySelectorAll('[data-panel]');

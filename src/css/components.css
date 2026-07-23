@@ -6,6 +6,7 @@
  * Card
  * Input
  * Badge
+ * Toast
  */
 
 
@@ -180,4 +181,40 @@
 .c-badge--danger {
     background: var(--status-danger);
     color: var(--text-inverse);
+}
+
+
+/* ==========================================================
+   Toast
+   ========================================================== */
+
+.c-toast {
+  position: absolute;
+  bottom: calc(100% + var(--space-2));
+  left: 50%;
+
+  padding: var(--toast-padding-y) var(--toast-padding-x);
+
+  background: var(--toast-bg);
+  color: var(--toast-text);
+
+  border: 1px solid var(--toast-border);
+  border-radius: var(--toast-radius);
+  box-shadow: var(--toast-shadow);
+
+  font-size: var(--font-size-label);
+  white-space: nowrap;
+
+  opacity: 0;
+  transform: translate(-50%, var(--space-2));
+  pointer-events: none;
+
+  transition:
+    opacity var(--toast-transition-duration) var(--toast-transition-timing),
+    transform var(--toast-transition-duration) var(--toast-transition-timing);
+}
+
+.c-toast--visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
