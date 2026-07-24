@@ -122,6 +122,18 @@ Help users evaluate design quality instead of only displaying tokens.
 
 ---
 
+## Preview Frame
+
+Separate Preview Mode (device-width simulation) out of
+palette-engine.js into its own dedicated module.
+
+Phase 1's Preview Mode only simulates layout width — it does not
+emulate device-specific behavior, browser APIs, or media features.
+Revisit once Preview Mode grows (device chrome, more breakpoints,
+real emulation) enough to justify its own module.
+
+---
+
 ## Design Score
 
 Automatic scoring based on measurable rules.

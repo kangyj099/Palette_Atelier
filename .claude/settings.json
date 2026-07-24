@@ -1,0 +1,8 @@
+{
+  "skillOverrides": {
+    "superpowers:brainstorming": "off",
+    "superpowers:writing-plans": "off",
+    "superpowers:executing-plans": "off",
+    "superpowers:subagent-driven-development": "off"
+  }
+}

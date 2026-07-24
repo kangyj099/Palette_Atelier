@@ -41,17 +41,29 @@ Status
 
 # Current
 
-TBD
+feat(preview): add Phone Preview
 
 Status
 
 🟡 Ready
 
+Header's disabled "Soon" button becomes a Desktop/Phone toggle
+(`data-action="toggle-preview"`), setting `state.previewMode` and
+`document.documentElement.dataset.preview`. When `data-preview="phone"`,
+each `.l-content > [data-panel]` is capped at a new `--preview-phone-width`
+(390px) token, centered with a border — header/footer/tab bar stay
+full width. Layout-width simulation only, no device/browser/media
+emulation (see Parking Lot / Product/ROADMAP.md Phase 2 § Preview Frame
+for splitting this out of palette-engine.js later).
+
 ---
 
 # Next
 
-TBD
+feat(preview): add Accessibility Preview
+
+Finishes the Preview section (5/7 → 7/7). Phone Preview and
+Accessibility Preview are the last two Phase 1 Preview items.
 
 ---
 
